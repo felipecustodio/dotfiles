@@ -87,3 +87,5 @@ source $ZSH/oh-my-zsh.sh
 alias dots='/usr/bin/git --git-dir=/home/crochi/.dots/ --work-tree=/home/crochi'
 source <(antibody init)
 source sourceables.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -12,3 +12,5 @@ BROWSER=/usr/bin/chromium
 EDITOR=/usr/bin/nano
 # <<< END ADDED BY CNCHI INSTALLER
 alias config='/usr/bin/git --git-dir=/home/crochi/.cfg/ --work-tree=/home/crochi'
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
