@@ -89,3 +89,6 @@ source <(antibody init)
 source sourceables.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+wd() {
+  . /home/crochi/bin/wd/wd.sh
+}
