@@ -1,4 +1,18 @@
 
+;
+;                     $$\           $$\
+;                     $$ |          $$ |
+;  $$$$$$\   $$$$$$\  $$ |$$\   $$\ $$$$$$$\   $$$$$$\   $$$$$$\
+; $$  __$$\ $$  __$$\ $$ |$$ |  $$ |$$  __$$\  \____$$\ $$  __$$\
+; $$ /  $$ |$$ /  $$ |$$ |$$ |  $$ |$$ |  $$ | $$$$$$$ |$$ |  \__|
+; $$ |  $$ |$$ |  $$ |$$ |$$ |  $$ |$$ |  $$ |$$  __$$ |$$ |
+; $$$$$$$  |\$$$$$$  |$$ |\$$$$$$$ |$$$$$$$  |\$$$$$$$ |$$ |
+; $$  ____/  \______/ \__| \____$$ |\_______/  \_______|\__|
+; $$ |                    $$\   $$ |
+; $$ |                    \$$$$$$  |
+; \__|                     \______/
+;
+
 [colors]
 foreground-alt = #232c34
 bluebg = #7cd0d6
@@ -29,8 +43,8 @@ font-1 = unifont:fontformat=truetype:size=11:antialias=false;0
 font-2 = Wuncon Siji:size:12;1.5
 
 modules-left = i3
-modules-center = mpd
-modules-right = updates volume date battery powermenu
+; modules-center = mpd
+modules-right = volume date battery powermenu
 
 [module/title]
 type = internal/xwindow
@@ -72,12 +86,6 @@ menu-1-0-padding = 0
 menu-2-0 = power off?
 menu-2-0-exec = sudo poweroff
 menu-2-0-padding = 0
-
-[module/updates]
-type = custom/script
-exec = count.sh
-interval = 100
-format-foreground = ${colors.foreground-alt} 
 
 [module/date]
 type = internal/date
