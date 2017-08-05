@@ -24,8 +24,8 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# rofi (launcher)
+bindsym $mod+d exec rofi -show run
 
 # change focus
 bindsym $mod+j focus left
@@ -144,4 +144,4 @@ gaps inner 5
 gaps outer 5
 
 # screensaver
-exec xscreensaver
+# exec xscreensaver

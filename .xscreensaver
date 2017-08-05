@@ -1,6 +1,12 @@
-# XScreenSaver Preferences File
-# Written by xscreensaver-demo 5.37 for crochi on Fri Aug  4 23:37:42 2017.
-# https://www.jwz.org/xscreensaver/
+
+#
+#     $$\   $$\  $$$$$$$\  $$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  $$$$$$$\   $$$$$$$\  $$$$$$\ $$\    $$\  $$$$$$\   $$$$$$\
+#     \$$\ $$  |$$  _____|$$  _____|$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ $$  _____| \____$$\\$$\  $$  |$$  __$$\ $$  __$$\
+#      \$$$$  / \$$$$$$\  $$ /      $$ |  \__|$$$$$$$$ |$$$$$$$$ |$$ |  $$ |\$$$$$$\   $$$$$$$ |\$$\$$  / $$$$$$$$ |$$ |  \__|
+#      $$  $$<   \____$$\ $$ |      $$ |      $$   ____|$$   ____|$$ |  $$ | \____$$\ $$  __$$ | \$$$  /  $$   ____|$$ |
+# $$\ $$  /\$$\ $$$$$$$  |\$$$$$$$\ $$ |      \$$$$$$$\ \$$$$$$$\ $$ |  $$ |$$$$$$$  |\$$$$$$$ |  \$  /   \$$$$$$$\ $$ |
+# \__|\__/  \__|\_______/  \_______|\__|       \_______| \_______|\__|  \__|\_______/  \_______|   \_/     \_______|\__|
+
 
 timeout:	0:10:00
 cycle:		0:10:00
@@ -32,14 +38,14 @@ dpmsOff:	4:00:00
 grabDesktopImages:  True
 grabVideoFrames:    False
 chooseRandomImages: False
-imageDirectory:	
+imageDirectory:
 
 mode:		one
 selected:	225
 
 textMode:	file
 textLiteral:	XScreenSaver
-textFile:	
+textFile:
 textProgram:	fortune
 textURL:	https://en.wikipedia.org/w/index.php?title=Special:NewPages&feed=rss
 
@@ -284,4 +290,3 @@ procInterrupts:	True
 xinputExtensionDev: False
 overlayStderr:	True
 authWarningSlack:   20
-

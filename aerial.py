@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# Script to download Apple Aerial videos
 
 import json
 import os
