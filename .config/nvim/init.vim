@@ -19,6 +19,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'scrooloose/syntastic'
+Plug 'davidhalter/jedi-vim'
 call plug#end()
 
 " Font

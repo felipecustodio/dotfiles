@@ -138,6 +138,10 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
+# polybar
+exec --no-startup-id conky -c ~/.config/panel/empty_conky 
+exec --no-startup-id polybar main
+
 # gaps
 for_window [class="^.*"] border pixel 0
 gaps inner 5

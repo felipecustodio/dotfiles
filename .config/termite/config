@@ -23,7 +23,7 @@ scrollback_lines = 10000
 search_wrap = true
 
 # Font
-font = Fira Code 9
+font = Hack 9
 
 # "system", "on" or "off"
 cursor_blink = system
