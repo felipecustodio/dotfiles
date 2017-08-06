@@ -159,11 +159,14 @@ bindsym XF86AudioPrev exec playerctl previous
 exec --no-startup-id compton -b &
 
 # polybar
-exec --no-startup-id conky -c ~/.config/polybar/empty_conky &
 exec --no-startup-id polybar main &
+exec --no-startup-id conky -c ~/.config/polybar/empty_conky &
 
 # wallpaper
 exec --no-startup-id nitrogen --restore &
+
+# dropbox
+exec --no-startup-id dropbox start &
 
 # lock screen
 bindsym $mod+Shitf+l exec --no-startup-ip lock -gp
