@@ -139,8 +139,11 @@ bindsym $mod+r mode "resize"
 # }
 
 # polybar
-exec --no-startup-id conky -c ~/.config/panel/empty_conky 
-exec --no-startup-id polybar main
+exec --no-startup-id conky -c ~/.config/polybar/empty_conky &
+exec --no-startup-id polybar main &
+
+# lock screen
+bindsym $mod+Shitf+l exec --no-startup-ip lock -gp
 
 # gaps
 for_window [class="^.*"] border pixel 0
