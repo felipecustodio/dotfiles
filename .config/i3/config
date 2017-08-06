@@ -138,9 +138,16 @@ bindsym $mod+r mode "resize"
 #         status_command i3status
 # }
 
+
+# compton
+exec --no-startup-id compton -b &
+
 # polybar
 exec --no-startup-id conky -c ~/.config/polybar/empty_conky &
 exec --no-startup-id polybar main &
+
+# wallpaper
+exec --no-startup-id nitrogen --restore &
 
 # lock screen
 bindsym $mod+Shitf+l exec --no-startup-ip lock -gp
