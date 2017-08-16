@@ -23,7 +23,9 @@ scrollback_lines = 10000
 search_wrap = true
 
 # Font
-font = Hack 9
+# font = Terminess Powerline
+font = Dina 9
+# font = Operator Mono 12
 
 # "system", "on" or "off"
 cursor_blink = system
