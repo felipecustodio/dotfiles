@@ -169,12 +169,12 @@ exec --no-startup-id nitrogen --restore &
 exec --no-startup-id dropbox start &
 
 # lock screen
-bindsym $mod+Shitf+l exec --no-startup-ip lock -gp
+bindsym $Ctrl+Alt+l exec --no-startup-id lock -gp
 
 # gaps
 for_window [class="^.*"] border pixel 0
-gaps inner 5
-gaps outer 5
+gaps inner 8
+gaps outer 8
 
 # screensaver
 # exec xscreensaver
