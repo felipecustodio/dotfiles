@@ -18,8 +18,10 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
 Plug 'davidhalter/jedi-vim'
+Plug 'valloric/youcompleteme'
+Plug 'fatih/vim-go'
 call plug#end()
 
 " Font
