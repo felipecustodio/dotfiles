@@ -38,84 +38,45 @@ cursor_shape = block
 filter_unmatched_urls = true
 
 [colors]
-# GRUVBOX
+# Gruvbox Light
+# hard contrast: background = #f9f5d7
+background = #fbf1c7
+# soft contrast: background = #f2e5bc
+foreground = #3c3836
+foreground_bold = #3c3836
 
-# hard contrast: background = #1d2021
-background = #282828
-# soft contrast: background = #32302f
-foreground = #ebdbb2
-foreground_bold = #ebdbb2
-
-# dark0 + gray
-color0 = #282828
+# light0 + gray
+color0 = #fbf1c7
 color8 = #928374
 
-# neutral_red + bright_red
+# neutral_red + faded_red
 color1 = #cc241d
-color9 = #fb4934
+color9 = #9d0006
 
-# neutral_green + bright_green
+# neutral_green + faded_green
 color2 = #98971a
-color10 = #b8bb26
+color10 = #79740e
 
-# neutral_yellow + bright_yellow
+# neutral_yellow + faded_yellow
 color3 = #d79921
-color11 = #fabd2f
+color11 = #b57614
 
-# neutral_blue + bright_blue
+# neutral_blue + faded_blue
 color4 = #458588
-color12 = #83a598
+color12 = #076678
 
-# neutral_purple + bright_purple
+# neutral_purple + faded_purple
 color5 = #b16286
-color13 = #d3869b
+color13 = #8f3f71
 
 # neutral_aqua + faded_aqua
 color6 = #689d6a
-color14 = #8ec07c
+color14 = #427b58
 
-# light4 + light1
-color7 = #a89984
-color15 = #ebdbb2
+# dark4 + dark1
+color7 = #7c6f64
+color15 = #3c3836
 
-# YOUSAI
-# special
-#foreground      = #34302d
-#foreground_bold = #34302d
-#cursor          = #34302d
-#background      = #f5e7de
-
-# black
-#color0  = #666661
-#color8  = #7f7f7a
-
-# red
-#color1  = #992e2e
-#color9  = #b23636
-
-# green
-#color2  = #4c3226
-#color10 = #664233
-
-# yellow
-#color3  = #a67c53
-#color11 = #bf8f60
-
-# blue
-#color4  = #4c7399
-#color12 = #5986b2
-
-# magenta
-#color5  = #bf9986
-#color13 = #d9ae98
-
-# cyan
-#color6  = #d97742
-#color14 = #f2854a
-
-# white
-#color7  = #34302d
-#color15 = #4c4742
 
 [hints]
 #font = Monospace 12
