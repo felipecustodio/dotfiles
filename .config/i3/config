@@ -13,7 +13,7 @@
 set $mod Mod4
 
 # Font
-font pango:monospace 8
+font pango:Dina 9
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -157,6 +157,9 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # compton
 exec --no-startup-id compton -b &
+
+# redshift
+exec --no-startup-id redshift &
 
 # polybar
 exec --no-startup-id polybar main &
