@@ -61,3 +61,11 @@ run_vdir() {
 alias ls="run_ls"
 alias dir="run_dir"
 alias vdir="run_vdir"
+
+# node
+export PATH=$PATH:~/node_modules/.bin
+# conda
+export PATH=$PATH:/opt/anaconda/bin
+# tensorflow / cuda
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64"
+export CUDA_HOME=/opt/cuda/
