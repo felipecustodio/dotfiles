@@ -43,9 +43,18 @@ font-1 = unifont:fontformat=truetype:size=11:antialias=false;0
 font-2 = Wuncon Siji:size:12;1.5
 font-3 = FontAwesome:size:11
 
+
+tray = right
 modules-left = i3
 ; modules-center = mpd
 modules-right = volume date battery keyboard powermenu
+
+tray-position = right
+tray-padding = 0
+tray-transparent = false
+;tray-background = #0063ff
+tray-detached = false
+
 
 [module/title]
 type = internal/xwindow
