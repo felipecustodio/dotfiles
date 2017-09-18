@@ -24,9 +24,6 @@ bindsym $mod+Return exec termite
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# rofi (launcher)
-bindsym $mod+d exec rofi -separator-style solid -show run -lines 5 -eh 2 -opacity "80" -bw 0 -columns 2
-
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -133,11 +130,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# # status bar
-# bar {
-#         status_command i3status
-# }
-
 # keys
 
 # Pulse Audio controls
@@ -156,7 +148,10 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # compton
-exec --no-startup-id compton -b &
+exec_always compton -f
+
+# rofi (launcher)
+bindsym $mod+d exec rofi -width 100 -fullscreen -padding 200 -separator-style none -hide-scrollbar -show run -lines 3 -eh 2 -bw 0 
 
 # redshift
 exec --no-startup-id redshift &
@@ -172,7 +167,7 @@ exec --no-startup-id nitrogen --restore &
 exec --no-startup-id dropbox start &
 
 # lock screen
-bindsym $Ctrl+Alt+l exec --no-startup-id lock -gp
+bindsym $mod+Shift+x exec lock -gp
 
 # gaps
 for_window [class="^.*"] border pixel 0
