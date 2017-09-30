@@ -153,6 +153,9 @@ exec_always compton -f
 # rofi (launcher)
 bindsym $mod+d exec rofi -width 100 -fullscreen -padding 200 -separator-style none -hide-scrollbar -show run -lines 3 -eh 2 -bw 0 
 
+# screenshot utility
+bindsym $mod+Shift+s exec spectacle
+
 # redshift
 exec --no-startup-id redshift &
 
@@ -173,6 +176,10 @@ bindsym $mod+Shift+x exec lock -gp
 for_window [class="^.*"] border pixel 0
 gaps inner 8
 gaps outer 8
+
+# floating windows
+for_window [class="fceux"] floating enable
+for_window [class="Fceux"] floating enable
 
 # screensaver
 # exec xscreensaver
