@@ -20,8 +20,8 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 " Plug 'scrooloose/syntastic'
 Plug 'davidhalter/jedi-vim'
-Plug 'valloric/youcompleteme'
-Plug 'fatih/vim-go'
+" Plug 'valloric/youcompleteme'
+" Plug 'fatih/vim-go'
 call plug#end()
 
 " Font
