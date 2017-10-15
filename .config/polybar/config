@@ -39,6 +39,7 @@ override-redirect = true
 wm-restack = i3
 
 font-0 = xos4 terminus:pixelsize=11;
+;font-0 = SF Mono:size:8
 font-1 = unifont:fontformat=truetype:size=11:antialias=false;0
 font-2 = Wuncon Siji:size:12;1.5
 font-3 = FontAwesome:size:11

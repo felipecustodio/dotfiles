@@ -13,7 +13,8 @@
 set $mod Mod4
 
 # Font
-font pango:Dina 9
+#font pango:Dina 9
+font pango:SF Mono 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -180,6 +181,8 @@ gaps outer 8
 # floating windows
 for_window [class="fceux"] floating enable
 for_window [class="Fceux"] floating enable
+for_window [class="tk"] floating enable
+for_window [class="Tk"] floating enable
 
 # screensaver
 # exec xscreensaver

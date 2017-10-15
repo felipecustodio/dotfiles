@@ -14,7 +14,7 @@ export ZSH=/home/crochi/.oh-my-zsh
 
 # theme
 ZSH_THEME="spaceship"
-SPACESHIP_PROMPT_SYMBOL="愛"
+SPACESHIP_PROMPT_SYMBOL="λ"
 
 # auto-update (in days).
 export UPDATE_ZSH_DAYS=13
