@@ -69,3 +69,5 @@ export PATH=$PATH:/opt/anaconda/bin
 # tensorflow / cuda
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64"
 export CUDA_HOME=/opt/cuda/
+# ruby
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
