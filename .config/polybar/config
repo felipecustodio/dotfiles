@@ -25,7 +25,7 @@ width = 1286
 offset-x = 40
 offset-y = 5
 
-background = #ECE0D7
+background = #E6E6E6
 foreground = ${colors.foreground-alt}
 underline-color = #00f
 overline-color = #f00
@@ -317,6 +317,7 @@ click-middle = echo "$((`cut .pomodoro_session -d ' ' -f 1`-5)) 5" > .pomodoro_s
 type = custom/script
 interval = 10
 format = <label>
+label-indicator = 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 exec = ~/.config/polybar/weather
