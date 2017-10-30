@@ -152,7 +152,7 @@ bindsym XF86AudioPrev exec playerctl previous
 exec_always compton -f
 
 # rofi (launcher)
-bindsym $mod+d exec rofi -width 100 -fullscreen -padding 200 -separator-style none -hide-scrollbar -show run -lines 3 -eh 2 -bw 0 
+bindsym $mod+d exec rofi -separator-style none -hide-scrollbar -show run -display-run " " -lines 5 -eh 2 -bw 0 
 
 # screenshot utility
 bindsym $mod+Shift+s exec spectacle
