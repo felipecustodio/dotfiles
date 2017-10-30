@@ -1,0 +1,3 @@
+#include /home/user/path/to/gruvbox-dark.theme
+#include "/usr/share/rofi/themes//android_notification.theme"
+rofi.theme: /usr/share/rofi/themes//Monokai.rasi
