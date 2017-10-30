@@ -157,6 +157,9 @@ bindsym $mod+d exec rofi -separator-style none -hide-scrollbar -show run -displa
 # screenshot utility
 bindsym $mod+Shift+s exec spectacle
 
+# file manager
+bindsym $mod+n exec thunar
+
 # redshift
 exec --no-startup-id redshift &
 
