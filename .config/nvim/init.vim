@@ -20,12 +20,13 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 " Plug 'scrooloose/syntastic'
 Plug 'davidhalter/jedi-vim'
+Plug 'dylanaraps/wal.vim'
 " Plug 'valloric/youcompleteme'
 " Plug 'fatih/vim-go'
 call plug#end()
 
 " Font
-let g:gruvbox_italic=1
+" let g:gruvbox_italic=1
 
 " Interface
 set tabstop=4
@@ -56,6 +57,6 @@ let g:syntastic_check_on_wq = 0
 
 " Color Scheme
 set termguicolors
-set background=dark
-colorscheme gruvbox
+" set background=dark
+colorscheme wal
 let g:airline_theme='minimalist'

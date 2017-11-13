@@ -62,6 +62,9 @@ alias ls="run_ls"
 alias dir="run_dir"
 alias vdir="run_vdir"
 
+# wal
+(wal -r &)
+
 # node
 export PATH=$PATH:~/node_modules/.bin
 # conda
