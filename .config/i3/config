@@ -169,6 +169,9 @@ bindsym XF86AudioPrev exec playerctl previous
 # compton
 exec_always compton -f
 
+# wal
+exec --no-startup-id wal -R
+
 # rofi (launcher)
 bindsym $mod+d exec rofi -separator-style none -hide-scrollbar -show run -display-run " " -lines 5 -eh 2 -bw 0 
 
@@ -182,8 +185,9 @@ bindsym $mod+n exec thunar
 exec --no-startup-id redshift &
 
 # polybar
-exec --no-startup-id polybar main &
-exec --no-startup-id conky -c ~/.config/polybar/empty_conky &
+# exec --no-startup-id polybar main &
+# exec --no-startup-id conky -c ~/.config/polybar/empty_conky &
+exec --no-startup-id polybar -c ~/.config/polybar/example example &
 
 # wallpaper
 # exec --no-startup-id nitrogen --restore &
