@@ -1,11 +1,21 @@
 # dotfiles
 :feelsgood: Ricing paradise
 
-![Current](https://i.imgur.com/n16WI4f.png)
+![Neofetch/Pipes](https://i.imgur.com/zTbGqxc.png)
 
-![Screenshot](http://i.imgur.com/ndmZFRe.jpg)
+`neofetch`
 
-![Screenshot2](https://i.imgur.com/Rch2mHu.png)
+`pipes.sh`
 
-Based on:
-https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/
+![Busy](https://i.imgur.com/s0fQlgc.png)
+
+`ncmpcpp`
+
+`pipes.sh`
+
+`neofetch`
+
+# Installing
+
+My dotfiles are organized via a bare Git repository in $HOME. 
+[How, you ask?](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
