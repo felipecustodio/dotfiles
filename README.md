@@ -1,5 +1,4 @@
-# dotfiles
-:feelsgood: Ricing paradise
+![Dotfiles](https://i.imgur.com/tGkmFXT.png)
 
 ![Neofetch/Pipes](https://i.imgur.com/zTbGqxc.png)
 
