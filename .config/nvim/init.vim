@@ -20,7 +20,7 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 " Plug 'scrooloose/syntastic'
 Plug 'davidhalter/jedi-vim'
-Plug 'dylanaraps/wal.vim'
+"Plug 'dylanaraps/wal.vim'
 " Plug 'valloric/youcompleteme'
 " Plug 'fatih/vim-go'
 call plug#end()
@@ -58,5 +58,5 @@ let g:syntastic_check_on_wq = 0
 " Color Scheme
 set termguicolors
 " set background=dark
-colorscheme wal
+colorscheme gruvbox
 let g:airline_theme='minimalist'
