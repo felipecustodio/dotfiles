@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/svetlana-manic-390629.jpg",
+    "special": {
+        "background": "#141E26",
+        "foreground": "#B0BB8D",
+        "cursor": "#B0BB8D"
+    },
+    "colors": {
+        "color0": "#141E26",
+        "color1": "#465538",
+        "color2": "#576A39",
+        "color3": "#3D4E41",
+        "color4": "#566946",
+        "color5": "#73894C",
+        "color6": "#94A257",
+        "color7": "#B0BB8D",
+        "color8": "#72787c",
+        "color9": "#465538",
+        "color10": "#576A39",
+        "color11": "#3D4E41",
+        "color12": "#566946",
+        "color13": "#73894C",
+        "color14": "#94A257",
+        "color15": "#B0BB8D"
+    }
+}

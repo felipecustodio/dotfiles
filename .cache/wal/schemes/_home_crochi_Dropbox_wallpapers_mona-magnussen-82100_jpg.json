@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/mona-magnussen-82100.jpg",
+    "special": {
+        "background": "#32282e",
+        "foreground": "#F2EAE7",
+        "cursor": "#F2EAE7"
+    },
+    "colors": {
+        "color0": "#32282e",
+        "color1": "#C27D88",
+        "color2": "#A6919E",
+        "color3": "#CFACAD",
+        "color4": "#C5BBC2",
+        "color5": "#D4CACC",
+        "color6": "#E7D4D2",
+        "color7": "#F2EAE7",
+        "color8": "#847e81",
+        "color9": "#C27D88",
+        "color10": "#A6919E",
+        "color11": "#CFACAD",
+        "color12": "#C5BBC2",
+        "color13": "#D4CACC",
+        "color14": "#E7D4D2",
+        "color15": "#F2EAE7"
+    }
+}

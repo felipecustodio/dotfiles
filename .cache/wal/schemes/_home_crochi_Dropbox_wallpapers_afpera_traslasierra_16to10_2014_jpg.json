@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/afpera_traslasierra_16to10_2014.jpg",
+    "special": {
+        "background": "#260f3d",
+        "foreground": "#ABC9A7",
+        "cursor": "#ABC9A7"
+    },
+    "colors": {
+        "color0": "#260f3d",
+        "color1": "#8EB19F",
+        "color2": "#A6B299",
+        "color3": "#8FB1A0",
+        "color4": "#97B9A2",
+        "color5": "#C1B491",
+        "color6": "#9FC0A4",
+        "color7": "#ABC9A7",
+        "color8": "#7c6f8a",
+        "color9": "#8EB19F",
+        "color10": "#A6B299",
+        "color11": "#8FB1A0",
+        "color12": "#97B9A2",
+        "color13": "#C1B491",
+        "color14": "#9FC0A4",
+        "color15": "#ABC9A7"
+    }
+}

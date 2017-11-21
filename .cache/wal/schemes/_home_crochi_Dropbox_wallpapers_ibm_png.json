@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/ibm.png",
+    "special": {
+        "background": "#1C131B",
+        "foreground": "#F5EEE5",
+        "cursor": "#F5EEE5"
+    },
+    "colors": {
+        "color0": "#1C131B",
+        "color1": "#DC5151",
+        "color2": "#D76567",
+        "color3": "#9B837B",
+        "color4": "#C2B0A5",
+        "color5": "#C6B3A9",
+        "color6": "#E4D7CE",
+        "color7": "#F5EEE5",
+        "color8": "#767176",
+        "color9": "#DC5151",
+        "color10": "#D76567",
+        "color11": "#9B837B",
+        "color12": "#C2B0A5",
+        "color13": "#C6B3A9",
+        "color14": "#E4D7CE",
+        "color15": "#F5EEE5"
+    }
+}

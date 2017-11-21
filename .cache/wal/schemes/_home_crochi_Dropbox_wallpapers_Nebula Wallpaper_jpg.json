@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/Nebula Wallpaper.jpg",
+    "special": {
+        "background": "#11142E",
+        "foreground": "#91C0C0",
+        "cursor": "#91C0C0"
+    },
+    "colors": {
+        "color0": "#11142E",
+        "color1": "#496B72",
+        "color2": "#61837D",
+        "color3": "#366E91",
+        "color4": "#487A93",
+        "color5": "#6298A3",
+        "color6": "#63AEC8",
+        "color7": "#91C0C0",
+        "color8": "#707281",
+        "color9": "#496B72",
+        "color10": "#61837D",
+        "color11": "#366E91",
+        "color12": "#487A93",
+        "color13": "#6298A3",
+        "color14": "#63AEC8",
+        "color15": "#91C0C0"
+    }
+}

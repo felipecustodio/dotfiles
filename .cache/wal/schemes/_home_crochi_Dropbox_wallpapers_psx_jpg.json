@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/psx.jpg",
+    "special": {
+        "background": "#911a2d",
+        "foreground": "#DEC8DF",
+        "cursor": "#DEC8DF"
+    },
+    "colors": {
+        "color0": "#911a2d",
+        "color1": "#B1808A",
+        "color2": "#CE9DAE",
+        "color3": "#A7AEC1",
+        "color4": "#D7B8CD",
+        "color5": "#CEC3D2",
+        "color6": "#D9C3D8",
+        "color7": "#DEC8DF",
+        "color8": "#bd7581",
+        "color9": "#B1808A",
+        "color10": "#CE9DAE",
+        "color11": "#A7AEC1",
+        "color12": "#D7B8CD",
+        "color13": "#CEC3D2",
+        "color14": "#D9C3D8",
+        "color15": "#DEC8DF"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/vapor1.jpg",
+    "special": {
+        "background": "#0D1015",
+        "foreground": "#D6C6C9",
+        "cursor": "#D6C6C9"
+    },
+    "colors": {
+        "color0": "#0D1015",
+        "color1": "#A26F92",
+        "color2": "#AF7492",
+        "color3": "#E477AA",
+        "color4": "#9A8782",
+        "color5": "#AF8D95",
+        "color6": "#ADA1A7",
+        "color7": "#D6C6C9",
+        "color8": "#6d6f72",
+        "color9": "#A26F92",
+        "color10": "#AF7492",
+        "color11": "#E477AA",
+        "color12": "#9A8782",
+        "color13": "#AF8D95",
+        "color14": "#ADA1A7",
+        "color15": "#D6C6C9"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/tycho-awake-wallpaper.jpg",
+    "special": {
+        "background": "#242d3d",
+        "foreground": "#E2E1CE",
+        "cursor": "#E2E1CE"
+    },
+    "colors": {
+        "color0": "#242d3d",
+        "color1": "#A26C8E",
+        "color2": "#D27385",
+        "color3": "#7E8487",
+        "color4": "#C4AEA3",
+        "color5": "#DAD9C7",
+        "color6": "#D4D3C8",
+        "color7": "#E2E1CE",
+        "color8": "#7b818a",
+        "color9": "#A26C8E",
+        "color10": "#D27385",
+        "color11": "#7E8487",
+        "color12": "#C4AEA3",
+        "color13": "#DAD9C7",
+        "color14": "#D4D3C8",
+        "color15": "#E2E1CE"
+    }
+}

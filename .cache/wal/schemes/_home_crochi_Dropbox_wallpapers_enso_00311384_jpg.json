@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/enso_00311384.jpg",
+    "special": {
+        "background": "#050709",
+        "foreground": "#FFFFFF",
+        "cursor": "#FFFFFF"
+    },
+    "colors": {
+        "color0": "#050709",
+        "color1": "#A3A39B",
+        "color2": "#E4ACA3",
+        "color3": "#BDC4B9",
+        "color4": "#D6C7B9",
+        "color5": "#DFD9D1",
+        "color6": "#F0EFE8",
+        "color7": "#FFFFFF",
+        "color8": "#696a6b",
+        "color9": "#A3A39B",
+        "color10": "#E4ACA3",
+        "color11": "#BDC4B9",
+        "color12": "#D6C7B9",
+        "color13": "#DFD9D1",
+        "color14": "#F0EFE8",
+        "color15": "#FFFFFF"
+    }
+}

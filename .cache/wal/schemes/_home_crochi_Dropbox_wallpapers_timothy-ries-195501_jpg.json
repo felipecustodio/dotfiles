@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/timothy-ries-195501.jpg",
+    "special": {
+        "background": "#040201",
+        "foreground": "#D5CDCD",
+        "cursor": "#D5CDCD"
+    },
+    "colors": {
+        "color0": "#040201",
+        "color1": "#975A1D",
+        "color2": "#926A66",
+        "color3": "#B49558",
+        "color4": "#847C88",
+        "color5": "#AE9A9C",
+        "color6": "#C8ADAE",
+        "color7": "#D5CDCD",
+        "color8": "#686766",
+        "color9": "#975A1D",
+        "color10": "#926A66",
+        "color11": "#B49558",
+        "color12": "#847C88",
+        "color13": "#AE9A9C",
+        "color14": "#C8ADAE",
+        "color15": "#D5CDCD"
+    }
+}

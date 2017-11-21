@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/dmitri-popov-189408.jpg",
+    "special": {
+        "background": "#140F0E",
+        "foreground": "#DBE0D8",
+        "cursor": "#DBE0D8"
+    },
+    "colors": {
+        "color0": "#140F0E",
+        "color1": "#B18878",
+        "color2": "#C3947B",
+        "color3": "#57A9AF",
+        "color4": "#AC9991",
+        "color5": "#D0AA96",
+        "color6": "#D0AB9A",
+        "color7": "#DBE0D8",
+        "color8": "#726f6e",
+        "color9": "#B18878",
+        "color10": "#C3947B",
+        "color11": "#57A9AF",
+        "color12": "#AC9991",
+        "color13": "#D0AA96",
+        "color14": "#D0AB9A",
+        "color15": "#DBE0D8"
+    }
+}

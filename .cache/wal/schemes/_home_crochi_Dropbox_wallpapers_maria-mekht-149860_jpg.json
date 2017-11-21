@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/maria-mekht-149860.jpg",
+    "special": {
+        "background": "#2A2A2A",
+        "foreground": "#EFF5F5",
+        "cursor": "#EFF5F5"
+    },
+    "colors": {
+        "color0": "#2A2A2A",
+        "color1": "#AAB5B6",
+        "color2": "#C7B0B0",
+        "color3": "#9DC4C4",
+        "color4": "#B5C8C9",
+        "color5": "#C9D5D6",
+        "color6": "#D8E4E4",
+        "color7": "#EFF5F5",
+        "color8": "#7f7f7f",
+        "color9": "#AAB5B6",
+        "color10": "#C7B0B0",
+        "color11": "#9DC4C4",
+        "color12": "#B5C8C9",
+        "color13": "#C9D5D6",
+        "color14": "#D8E4E4",
+        "color15": "#EFF5F5"
+    }
+}

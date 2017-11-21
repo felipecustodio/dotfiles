@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/galen-crout-87390.jpg",
+    "special": {
+        "background": "#0F0C0C",
+        "foreground": "#DCD6D5",
+        "cursor": "#DCD6D5"
+    },
+    "colors": {
+        "color0": "#0F0C0C",
+        "color1": "#BD935E",
+        "color2": "#9D8B6E",
+        "color3": "#808083",
+        "color4": "#A29B98",
+        "color5": "#C9B0AC",
+        "color6": "#C9C3BD",
+        "color7": "#DCD6D5",
+        "color8": "#6f6d6d",
+        "color9": "#BD935E",
+        "color10": "#9D8B6E",
+        "color11": "#808083",
+        "color12": "#A29B98",
+        "color13": "#C9B0AC",
+        "color14": "#C9C3BD",
+        "color15": "#DCD6D5"
+    }
+}

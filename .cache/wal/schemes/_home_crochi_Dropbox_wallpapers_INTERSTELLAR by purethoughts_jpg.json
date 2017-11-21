@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/INTERSTELLAR by purethoughts.jpg",
+    "special": {
+        "background": "#0D131F",
+        "foreground": "#F6C395",
+        "cursor": "#F6C395"
+    },
+    "colors": {
+        "color0": "#0D131F",
+        "color1": "#61504B",
+        "color2": "#9D514A",
+        "color3": "#EB6559",
+        "color4": "#768771",
+        "color5": "#B6A66E",
+        "color6": "#F79472",
+        "color7": "#F6C395",
+        "color8": "#6d7178",
+        "color9": "#61504B",
+        "color10": "#9D514A",
+        "color11": "#EB6559",
+        "color12": "#768771",
+        "color13": "#B6A66E",
+        "color14": "#F79472",
+        "color15": "#F6C395"
+    }
+}
