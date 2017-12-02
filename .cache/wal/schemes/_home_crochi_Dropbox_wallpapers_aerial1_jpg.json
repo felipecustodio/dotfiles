@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/aerial1.jpg",
+    "special": {
+        "background": "#0C0A0C",
+        "foreground": "#F7DEE5",
+        "cursor": "#F7DEE5"
+    },
+    "colors": {
+        "color0": "#0C0A0C",
+        "color1": "#373B4A",
+        "color2": "#625854",
+        "color3": "#90725A",
+        "color4": "#B7976B",
+        "color5": "#6D758E",
+        "color6": "#C8B2A1",
+        "color7": "#F7DEE5",
+        "color8": "#6d6c6d",
+        "color9": "#373B4A",
+        "color10": "#625854",
+        "color11": "#90725A",
+        "color12": "#B7976B",
+        "color13": "#6D758E",
+        "color14": "#C8B2A1",
+        "color15": "#F7DEE5"
+    }
+}

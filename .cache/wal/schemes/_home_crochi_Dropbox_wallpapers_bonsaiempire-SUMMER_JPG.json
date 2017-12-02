@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/bonsaiempire-SUMMER.JPG",
+    "special": {
+        "background": "#2a2f18",
+        "foreground": "#FDF8D9",
+        "cursor": "#FDF8D9"
+    },
+    "colors": {
+        "color0": "#2a2f18",
+        "color1": "#C4AF7C",
+        "color2": "#7D8182",
+        "color3": "#BAB285",
+        "color4": "#C6B485",
+        "color5": "#D3BB9D",
+        "color6": "#D1C798",
+        "color7": "#FDF8D9",
+        "color8": "#7f8274",
+        "color9": "#C4AF7C",
+        "color10": "#7D8182",
+        "color11": "#BAB285",
+        "color12": "#C6B485",
+        "color13": "#D3BB9D",
+        "color14": "#D1C798",
+        "color15": "#FDF8D9"
+    }
+}

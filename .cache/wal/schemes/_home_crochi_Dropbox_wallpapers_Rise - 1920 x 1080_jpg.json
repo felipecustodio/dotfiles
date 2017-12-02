@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/Rise - 1920 x 1080.jpg",
+    "special": {
+        "background": "#141A24",
+        "foreground": "#E7EDE3",
+        "cursor": "#E7EDE3"
+    },
+    "colors": {
+        "color0": "#141A24",
+        "color1": "#AFB6AB",
+        "color2": "#C8B293",
+        "color3": "#BBC4BA",
+        "color4": "#C7CAB7",
+        "color5": "#BCC9C3",
+        "color6": "#CCD4CA",
+        "color7": "#E7EDE3",
+        "color8": "#72757b",
+        "color9": "#AFB6AB",
+        "color10": "#C8B293",
+        "color11": "#BBC4BA",
+        "color12": "#C7CAB7",
+        "color13": "#BCC9C3",
+        "color14": "#CCD4CA",
+        "color15": "#E7EDE3"
+    }
+}
