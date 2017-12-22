@@ -1,0 +1,15 @@
+#!/bin/python
+
+import urllib.request, json
+
+city = "sao carlos"
+api_key = "115d63743ee7062a552acffe4aeb4259"
+units = "metric"
+unit_key = "c"
+
+weather = eval(str(urllib.request.urlopen("http://api.openweathermap.org/data/2.5/weather?q={}&APPID={}&units={}".format(city, api_key, units)).read())[2:-1])
+
+info = weather["weather"][0]["description"].capitalize()
+temp = int(float(weather["main"]["temp"]))
+
+print("%i °%s" % (temp, unit_key))
