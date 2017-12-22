@@ -23,7 +23,7 @@ export UPDATE_ZSH_DAYS=13
 COMPLETION_WAITING_DOTS="true"
 
 # oh-my-zsh plugins
-plugins=(git tldr)
+plugins=(git tldr wd)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -41,26 +41,6 @@ source <(antibody init)
 source ~/sourceables.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-wd() {
-  . /home/crochi/bin/wd/wd.sh
-}
-
-LS_COLORS=$(ls_colors_generator)
-
-run_ls() {
-	ls-i --color=auto -w $(tput cols) "$@"
-}
-
-run_dir() {
-	dir-i --color=auto -w $(tput cols) "$@"
-}
-
-run_vdir() {
-	vdir-i --color=auto -w $(tput cols) "$@"
-}
-alias ls="run_ls"
-alias dir="run_dir"
-alias vdir="run_vdir"
 
 # wal
 (wal -r &)
