@@ -43,7 +43,7 @@ source ~/sourceables.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # wal
-(wal -r &)
+(wal -r -t &)
 
 # node
 export PATH=$PATH:~/node_modules/.bin
