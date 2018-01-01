@@ -57,6 +57,6 @@ let g:syntastic_check_on_wq = 0
 
 " Color Scheme
 set termguicolors
-" set background=dark
+set background=dark
 colorscheme gruvbox
 let g:airline_theme='minimalist'
