@@ -4,6 +4,7 @@ image/png=ristretto.desktop
 image/jpeg=ristretto.desktop
 text/plain=sublime_text_3.desktop
 application/x-mif=sublime_text_3.desktop
+x-scheme-handler/itchio=io.itch.itch.desktop
 
 [Added Associations]
 x-scheme-handler/http=exo-web-browser.desktop
