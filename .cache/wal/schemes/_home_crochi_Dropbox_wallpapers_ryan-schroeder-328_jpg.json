@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/ryan-schroeder-328.jpg",
+    "special": {
+        "background": "#1E2318",
+        "foreground": "#ABD0D0",
+        "cursor": "#ABD0D0"
+    },
+    "colors": {
+        "color0": "#1E2318",
+        "color1": "#948970",
+        "color2": "#0D7589",
+        "color3": "#2A7B8D",
+        "color4": "#4C7A88",
+        "color5": "#2C8B9F",
+        "color6": "#5896A3",
+        "color7": "#ABD0D0",
+        "color8": "#787b74",
+        "color9": "#948970",
+        "color10": "#0D7589",
+        "color11": "#2A7B8D",
+        "color12": "#4C7A88",
+        "color13": "#2C8B9F",
+        "color14": "#5896A3",
+        "color15": "#ABD0D0"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/daniel-olah-396980.jpg",
+    "special": {
+        "background": "#08101A",
+        "foreground": "#E5DBD3",
+        "cursor": "#E5DBD3"
+    },
+    "colors": {
+        "color0": "#08101A",
+        "color1": "#3D6D91",
+        "color2": "#6491B2",
+        "color3": "#B2A49F",
+        "color4": "#C6B8B1",
+        "color5": "#BDC0C3",
+        "color6": "#E2D8D2",
+        "color7": "#E5DBD3",
+        "color8": "#6a6f75",
+        "color9": "#3D6D91",
+        "color10": "#6491B2",
+        "color11": "#B2A49F",
+        "color12": "#C6B8B1",
+        "color13": "#BDC0C3",
+        "color14": "#E2D8D2",
+        "color15": "#E5DBD3"
+    }
+}

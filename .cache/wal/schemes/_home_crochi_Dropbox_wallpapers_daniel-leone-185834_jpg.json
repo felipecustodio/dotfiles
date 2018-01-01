@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/daniel-leone-185834.jpg",
+    "special": {
+        "background": "#17272A",
+        "foreground": "#BAD2CE",
+        "cursor": "#BAD2CE"
+    },
+    "colors": {
+        "color0": "#17272A",
+        "color1": "#677E82",
+        "color2": "#59868E",
+        "color3": "#669198",
+        "color4": "#75A1A7",
+        "color5": "#8BB2B5",
+        "color6": "#A8CAC8",
+        "color7": "#BAD2CE",
+        "color8": "#737d7f",
+        "color9": "#677E82",
+        "color10": "#59868E",
+        "color11": "#669198",
+        "color12": "#75A1A7",
+        "color13": "#8BB2B5",
+        "color14": "#A8CAC8",
+        "color15": "#BAD2CE"
+    }
+}

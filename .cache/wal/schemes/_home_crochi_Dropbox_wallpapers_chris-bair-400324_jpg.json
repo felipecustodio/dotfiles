@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/chris-bair-400324.jpg",
+    "special": {
+        "background": "#010101",
+        "foreground": "#E68842",
+        "cursor": "#E68842"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#674745",
+        "color2": "#8F4B30",
+        "color3": "#98583E",
+        "color4": "#B05A2C",
+        "color5": "#CD702F",
+        "color6": "#EE9234",
+        "color7": "#E68842",
+        "color8": "#666666",
+        "color9": "#674745",
+        "color10": "#8F4B30",
+        "color11": "#98583E",
+        "color12": "#B05A2C",
+        "color13": "#CD702F",
+        "color14": "#EE9234",
+        "color15": "#E68842"
+    }
+}
