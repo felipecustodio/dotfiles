@@ -196,7 +196,7 @@ exec --no-startup-id polybar -c ~/.config/polybar/example example &
 exec --no-startup-id dropbox start &
 
 # lock screen
-bindsym $mod+Shift+x exec lock -gp
+bindsym $mod+Shift+x exec lock
 
 # gaps
 for_window [class="^.*"] border pixel 4
