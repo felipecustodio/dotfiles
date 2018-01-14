@@ -1,20 +1,30 @@
-![Dotfiles](https://i.imgur.com/tGkmFXT.png)
 
-![Neofetch/Pipes](https://i.imgur.com/zTbGqxc.png)
+<h1 align="center">ｃｒｏｃｈｉ＇ｓ ｄｏｔｆｉｌｅｓ</h1>
 
-`neofetch`
+<h2 align="center"> ｓｙｓｔｅｍ </h2>
 
-`pipes.sh`
+**Distro:** Antergos (Arch Linux)
 
-![Busy](https://i.imgur.com/s0fQlgc.png)
+**Terminal:** Termite
 
-`ncmpcpp`
+**WM:** i3-gaps
 
-`pipes.sh`
+**Bar:** polybar
 
-`neofetch`
+<h2 align="center"> ｎｅｏｆｅｔｃｈ </h2>
 
-# Installing
+![neofetch](https://i.imgur.com/vJuQktQ.png)
 
-My dotfiles are organized via a bare Git repository in $HOME. 
-[How, you ask?](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
+<h2 align="center">  ｃｏｌｏｒｓ </h2>
+
+> Colorscheme is generated with [pywal](https://github.com/dylanaraps/pywal/).
+
+![colors](https://i.imgur.com/kIVU87I.png)
+
+<h2 align="center"> ｂｕｓｙ </h2>
+
+![busy](https://i.imgur.com/XxedDmF.png)
+
+<h2 align="center">  ｉｎｓｔａｌｌａｔｉｏｎ </h2>
+
+[My dotfiles are organized via a bare Git repository in $HOME.](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
