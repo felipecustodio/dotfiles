@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/michal-parzuchowski-324218.jpg",
+    "special": {
+        "background": "#0F2A35",
+        "foreground": "#DAD2BC",
+        "cursor": "#DAD2BC"
+    },
+    "colors": {
+        "color0": "#0F2A35",
+        "color1": "#796462",
+        "color2": "#926A5D",
+        "color3": "#B1674E",
+        "color4": "#8C6F69",
+        "color5": "#788578",
+        "color6": "#B38D6F",
+        "color7": "#DAD2BC",
+        "color8": "#6f7f85",
+        "color9": "#796462",
+        "color10": "#926A5D",
+        "color11": "#B1674E",
+        "color12": "#8C6F69",
+        "color13": "#788578",
+        "color14": "#B38D6F",
+        "color15": "#DAD2BC"
+    }
+}
