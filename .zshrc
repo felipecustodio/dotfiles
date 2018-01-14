@@ -38,7 +38,8 @@ alias dots='/usr/bin/git --git-dir=/home/crochi/.dots/ --work-tree=/home/crochi'
 
 # zsh plugins
 source <(antibody init)
-source ~/sourceables.sh
+# source ~/sourceables.sh
+antibody bundle < plugins.txt 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
