@@ -12,6 +12,7 @@ antergos-wallpapers
 antergos-welcome
 arandr
 arm
+arp-scan
 aseprite
 atom
 atop
@@ -29,6 +30,8 @@ bind-tools
 binutils
 bison
 blueman
+bluez-plugins
+bluez-utils
 btrfs-progs
 bzip2
 bzr
@@ -90,7 +93,7 @@ file-roller
 filesystem
 findutils
 firefox
-firefox-developer
+firefox-developer-edition
 flashplugin
 flex
 fluidsynth
@@ -117,6 +120,7 @@ gnome-calculator
 gnome-disk-utility
 gnome-keyring
 go
+godot-git
 google-chrome
 gparted
 gradle
@@ -156,6 +160,7 @@ jfsutils
 joyutils
 jre7-openjdk-headless
 jre8-openjdk-headless
+jstest-gtk-git
 kalu
 kotlin
 la-capitaine-icon-theme-git
@@ -170,6 +175,7 @@ lib32-libxt
 lib32-libxtst
 lib32-mesa
 libdvdcss
+libpthread-stubs
 libsixel-git
 libtool
 libtorrent-ps
@@ -187,11 +193,13 @@ linux-lts
 logrotate
 lvm2
 lxappearance
+ly-git
 lynx
 m4
 make
 man-db
 man-pages
+mariadb
 mdadm
 mesa
 mesa-demos
@@ -306,6 +314,7 @@ scrot
 sed
 shadow
 siji-git
+simplescreenrecorder
 slack-desktop
 slurm
 snes9x
@@ -382,6 +391,7 @@ vi
 visual-studio-code
 visual-studio-code-git
 vlc
+vocal
 vrep
 w3m
 weka
