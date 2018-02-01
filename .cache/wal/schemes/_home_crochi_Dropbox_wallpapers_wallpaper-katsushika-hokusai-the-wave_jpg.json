@@ -1,0 +1,26 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/wallpaper-katsushika-hokusai-the-wave.jpg",
+    "special": {
+        "background": "#1B1F32",
+        "foreground": "#F0EBD6",
+        "cursor": "#F0EBD6"
+    },
+    "colors": {
+        "color0": "#1B1F32",
+        "color1": "#7493A1",
+        "color2": "#9EA5A1",
+        "color3": "#B2BEB8",
+        "color4": "#D5C6AB",
+        "color5": "#E7CCAA",
+        "color6": "#DEDED2",
+        "color7": "#F0EBD6",
+        "color8": "#767884",
+        "color9": "#7493A1",
+        "color10": "#9EA5A1",
+        "color11": "#B2BEB8",
+        "color12": "#D5C6AB",
+        "color13": "#E7CCAA",
+        "color14": "#DEDED2",
+        "color15": "#F0EBD6"
+    }
+}
