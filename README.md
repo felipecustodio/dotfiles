@@ -1,5 +1,5 @@
-
-<h1 align="center">ｃｒｏｃｈｉ＇ｓ ｄｏｔｆｉｌｅｓ</h1>
+<h1 align="center"><strong>てん </strong></h1>
+<h1 align="center">my dotfiles</h1>
 
 <h2 align="center"> ｓｙｓｔｅｍ </h2>
 
