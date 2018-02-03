@@ -13,8 +13,8 @@
 set $mod Mod4
 
 # Font
-#font pango:Dina 9
-font pango:SF Mono 10
+font pango:Dina 9
+# font pango:SF Mono 10
 
 # Colors
 # Set colors from Xresources
@@ -169,6 +169,9 @@ bindsym XF86AudioPrev exec playerctl previous
 # compton
 exec_always compton -f
 
+# mopidy
+exec_always mopidy
+
 # wal
 exec --no-startup-id wal -R
 
@@ -185,12 +188,7 @@ bindsym $mod+n exec thunar
 exec --no-startup-id redshift &
 
 # polybar
-# exec --no-startup-id polybar main &
-# exec --no-startup-id conky -c ~/.config/polybar/empty_conky &
 exec --no-startup-id polybar -c ~/.config/polybar/example example &
-
-# wallpaper
-# exec --no-startup-id nitrogen --restore &
 
 # dropbox
 exec --no-startup-id dropbox start &
@@ -209,5 +207,3 @@ for_window [class="Fceux"] floating enable
 for_window [class="tk"] floating enable
 for_window [class="Tk"] floating enable
 
-# screensaver
-# exec xscreensaver
