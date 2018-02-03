@@ -44,7 +44,8 @@ antibody bundle < plugins.txt
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # wal
-(wal -r -t &)
+# (wal -r -t &)
+(cat /home/crochi/.cache/wal/sequences &)
 
 # node
 export PATH=$PATH:~/node_modules/.bin
