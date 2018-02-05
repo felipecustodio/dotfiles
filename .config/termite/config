@@ -25,9 +25,10 @@ search_wrap = true
 # Font
 # font = Source Code Pro Powerline
 # font = Terminess Powerline
-# font = Dina 9
+font = Dina 9
+# font = Lemon 9
 # font = OperatorMonoLight 12
-font = SF MONO 12
+# font = SF MONO 12
 # "system", "on" or "off"
 cursor_blink = system
 
