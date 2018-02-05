@@ -17,12 +17,13 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
+" Plug 'junegunn/limelight.vim'
 " Plug 'scrooloose/syntastic'
-Plug 'davidhalter/jedi-vim'
+" Plug 'davidhalter/jedi-vim'
 "Plug 'dylanaraps/wal.vim'
 " Plug 'valloric/youcompleteme'
 " Plug 'fatih/vim-go'
+Plug 'dylanaraps/wal.vim'
 call plug#end()
 
 " Font
@@ -56,7 +57,9 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " Color Scheme
-set termguicolors
+" set termguicolors
+set t_Co=256
 set background=dark
-colorscheme gruvbox
+" colorscheme gruvbox
+colorscheme wal
 let g:airline_theme='minimalist'
