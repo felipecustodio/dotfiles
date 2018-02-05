@@ -23,12 +23,12 @@ scrollback_lines = 10000
 search_wrap = true
 
 # Font
-# font = Source Code Pro Powerline
-# font = Terminess Powerline
-font = Dina 9
-# font = Lemon 9
-# font = OperatorMonoLight 12
+# font = Dina 9
+# font = tewi 9
 # font = SF MONO 12
+font = tamzen
+# font = uushi
+
 # "system", "on" or "off"
 cursor_blink = system
 
