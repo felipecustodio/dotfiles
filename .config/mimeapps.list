@@ -31,3 +31,4 @@ application/octet-stream=aseprite.desktop;
 application/x-mif=sublime_text_3.desktop;
 image/bmp=ristretto.desktop;
 text/csv=sublime_text_3.desktop;
+application/zip=org.gnome.FileRoller.desktop;
