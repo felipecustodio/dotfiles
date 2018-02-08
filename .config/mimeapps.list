@@ -2,7 +2,7 @@
 x-scheme-handler/tg=telegramdesktop.desktop
 image/png=ristretto.desktop
 image/jpeg=ristretto.desktop
-text/plain=sublime_text_3.desktop
+text/plain=atom.desktop
 application/x-mif=sublime_text_3.desktop
 x-scheme-handler/itchio=io.itch.itch.desktop
 
@@ -23,7 +23,7 @@ application/x-compressed-tar=org.gnome.FileRoller.desktop;
 video/x-matroska=mplayer.desktop;mpv.desktop;vlc.desktop;
 font/ttf=fontforge.desktop;
 audio/x-wav=mplayer.desktop;mpv.desktop;
-text/plain=sublime_text_3.desktop;wine-extension-ini.desktop;
+text/plain=sublime_text_3.desktop;wine-extension-ini.desktop;atom.desktop;
 image/x-panasonic-rw=sublime_text_3.desktop;
 text/markdown=sublime_text_3.desktop;
 text/x-java=sublime_text_3.desktop;
