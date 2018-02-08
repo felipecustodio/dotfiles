@@ -9,10 +9,8 @@
 
 [colors]
 background = ${xrdb:color0:#222}
-;background = #222
 background-alt = #444
 foreground = ${xrdb:color7:#222}
-;foreground = #dfdfdf
 foreground-alt = #555
 primary = #ffb52a
 secondary = #e60053
@@ -49,22 +47,6 @@ modules-left = i3 xkeyboard
 modules-center = date
 modules-right = volume wlan eth battery weather 
 
-;tray-position = right
-;tray-padding = 2
-;tray-transparent = true
-;tray-background = #0063ff
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
-
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
@@ -79,6 +61,7 @@ format-prefix-underline = ${colors.secondary}
 
 label-layout =  %layout%
 label-layout-underline = ${colors.secondary}
+label-layout-foreground = ${colors.foreground-alt}
 
 label-indicator-padding = 2
 label-indicator-margin = 1
@@ -119,9 +102,6 @@ type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
-
-; Only show workspaces on the same output as the bar
-;pin-workspaces = true
 
 label-mode-padding = 2
 label-mode-foreground = #000
@@ -234,7 +214,7 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = 
+format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
@@ -243,33 +223,23 @@ label = %date% %time%
 [module/volume]
 type = internal/volume
 
-format-volume = <label-volume> <bar-volume>
-label-volume = 
+ramp-volume-foreground = ${colors.foreground-alt}
+
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
-label-muted = mute
 
-bar-volume-width = 10
-bar-volume-foreground-0 = ${colors.foreground-alt}
-bar-volume-foreground-1 = ${colors.foreground-alt}
-bar-volume-foreground-2 = ${colors.foreground-alt}
-bar-volume-foreground-3 = ${colors.foreground-alt}
-bar-volume-foreground-4 = ${colors.foreground-alt}
-bar-volume-foreground-5 = ${colors.foreground-alt}
-bar-volume-foreground-6 = ${colors.foreground-alt}
-bar-volume-gradient = false
-;bar-volume-indicator = |
-bar-volume-indicator = 
-bar-volume-indicator-font = 2
-;bar-volume-fill = ─
-bar-volume-fill = 
-bar-volume-fill-font = 2
-;bar-volume-empty = ─
-bar-volume-empty = 
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
+format-volume = <ramp-volume> <label-volume>
+
+label-muted = muted
+label-muted-foreground = #66
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+ramp-headphones-0 = 
+ramp-headphones-1 = 
 
 [module/battery]
 type = internal/battery
