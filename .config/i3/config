@@ -188,7 +188,7 @@ bindsym $mod+n exec thunar
 exec --no-startup-id redshift &
 
 # polybar
-exec --no-startup-id polybar -c ~/.config/polybar/example example &
+exec --no-startup-id polybar -c ~/.config/polybar/main main &
 
 # dropbox
 exec --no-startup-id dropbox start &
