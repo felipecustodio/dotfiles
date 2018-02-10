@@ -1,9 +1,13 @@
 #!/bin/sh
+# nvidia
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --dpi 96 --auto
+# compositor
 compton -b &
+# xresources
 xrdb -merge "$HOME/.Xresources"
-nitrogen --restore &
+# session
 exec i3
 # exec openbox-session
 xset +fp ~/.local/share/fonts
-# wal -R # deprecated
 cat /home/crochi/.cache/wal/sequences
