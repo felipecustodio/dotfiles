@@ -3,7 +3,7 @@
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --dpi 96 --auto
 # compositor
-compton -b &
+compton -b
 # xresources
 xrdb -merge "$HOME/.Xresources"
 # session
