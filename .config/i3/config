@@ -167,10 +167,10 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # compton
-exec_always compton -f
+exec --no-startup-id compton --config ~/.config/compton.conf -b
 
 # mopidy
-exec_always mopidy
+exec --no-startup-id mopidy
 
 # wal
 exec --no-startup-id wal -R

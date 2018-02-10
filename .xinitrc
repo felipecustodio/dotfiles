@@ -1,9 +1,7 @@
 #!/bin/sh
 # nvidia
-xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --setprovideroutputsource modesetting NVIDIA-1
 xrandr --dpi 96 --auto
-# compositor
-compton -b
 # xresources
 xrdb -merge "$HOME/.Xresources"
 # session
