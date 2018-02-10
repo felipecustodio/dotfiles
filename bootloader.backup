@@ -1,0 +1,6 @@
+title	Antergos
+linux	/vmlinuz-linux
+initrd	/intel-ucode.img
+initrd	/initramfs-linux.img
+options	root=UUID=5ac05604-b334-4162-872c-ee340bdd26b2 rw quiet nvidia-drm.modeset=1
+
