@@ -12,22 +12,19 @@
 
 " Plugins
 call plug#begin()
+Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'airblade/vim-gitgutter'
+" Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 " Plug 'junegunn/limelight.vim'
 " Plug 'scrooloose/syntastic'
 " Plug 'davidhalter/jedi-vim'
-"Plug 'dylanaraps/wal.vim'
 " Plug 'valloric/youcompleteme'
 " Plug 'fatih/vim-go'
 Plug 'dylanaraps/wal.vim'
 call plug#end()
-
-" Font
-" let g:gruvbox_italic=1
 
 " Interface
 set tabstop=4
@@ -60,6 +57,15 @@ let g:syntastic_check_on_wq = 0
 " set termguicolors
 set t_Co=256
 set background=dark
-" colorscheme gruvbox
-colorscheme wal
+colorscheme gruvbox
+" colorscheme wal
 let g:airline_theme='minimalist'
+
+" Nerd Tree
+map <C-n> :NERDTreeToggle<CR>
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | exe 'NERDTree' argv()[0] | wincmd p | ene | endif
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+
