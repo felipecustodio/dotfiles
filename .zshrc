@@ -12,9 +12,12 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/crochi/.oh-my-zsh
 
+# wal
+(cat /home/crochi/.cache/wal/sequences &)
+
 # theme
 ZSH_THEME="spaceship"
-SPACESHIP_PROMPT_SYMBOL="λ"
+SPACESHIP_PROMPT_SYMBOL=""
 
 # auto-update (in days).
 export UPDATE_ZSH_DAYS=13
@@ -22,9 +25,7 @@ export UPDATE_ZSH_DAYS=13
 # red dots whilst waiting for completion.
 COMPLETION_WAITING_DOTS="true"
 
-# oh-my-zsh plugins
-plugins=(git tldr wd)
-
+# oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # language environment
@@ -33,20 +34,34 @@ export LANG=en_US.UTF-8
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# aliases
+# dotfile management
 alias dots='/usr/bin/git --git-dir=/home/crochi/.dots/ --work-tree=/home/crochi'
 
-# zsh plugins
-source <(antibody init)
-# source ~/sourceables.sh
-antibody bundle < plugins.txt 
+# zplug
+source ~/.zplug/init.zsh
+zplug "plugins/git",   from:oh-my-zsh
+zplug "plugins/wd",   from:oh-my-zsh
+zplug "plugins/tldr",   from:oh-my-zsh
+zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug "zsh-users/zsh-autosuggestions"
+zplug "zsh-users/zsh-history-substring-search"
+zplug "junegunn/fzf-bin", \
+    from:gh-r, \
+    as:command, \
+    rename-to:fzf, \
+    use:"*darwin*amd64*"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
 
-# wal
-# (wal -r -t &)
-(cat /home/crochi/.cache/wal/sequences &)
+zplug load
 
+# PATH
 # node
 export PATH=$PATH:~/node_modules/.bin
 # conda
