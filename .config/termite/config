@@ -23,11 +23,7 @@ scrollback_lines = 10000
 search_wrap = true
 
 # Font
-# font = Dina 9
-# font = tewi 9
-# font = SF MONO 12
 font = tamzen
-# font = uushi
 
 # "system", "on" or "off"
 cursor_blink = system
@@ -39,7 +35,6 @@ cursor_shape = block
 filter_unmatched_urls = true
 
 [colors]
-
 # special
 foreground      = #f8f8f2
 foreground_bold = #f8f8f2
