@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/anime3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1423",
+        "foreground": "#95c2e0",
+        "cursor": "#95c2e0"
+    },
+    "colors": {
+        "color0": "#0e1423",
+        "color1": "#4F526C",
+        "color2": "#9B7B7D",
+        "color3": "#2B559C",
+        "color4": "#2E52A3",
+        "color5": "#51689F",
+        "color6": "#0E63DF",
+        "color7": "#95c2e0",
+        "color8": "#B1ADC1",
+        "color9": "#4F526C",
+        "color10": "#9B7B7D",
+        "color11": "#2B559C",
+        "color12": "#2E52A3",
+        "color13": "#51689F",
+        "color14": "#0E63DF",
+        "color15": "#95c2e0"
+    }
+}

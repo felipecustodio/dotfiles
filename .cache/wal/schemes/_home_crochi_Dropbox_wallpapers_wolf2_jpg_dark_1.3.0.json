@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/wolf2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#141414",
+        "foreground": "#e8dcc7",
+        "cursor": "#e8dcc7"
+    },
+    "colors": {
+        "color0": "#141414",
+        "color1": "#E37861",
+        "color2": "#70827D",
+        "color3": "#A08F70",
+        "color4": "#E68F6F",
+        "color5": "#A9A392",
+        "color6": "#C9B99E",
+        "color7": "#e8dcc7",
+        "color8": "#CACBC8",
+        "color9": "#E37861",
+        "color10": "#70827D",
+        "color11": "#A08F70",
+        "color12": "#E68F6F",
+        "color13": "#A9A392",
+        "color14": "#C9B99E",
+        "color15": "#e8dcc7"
+    }
+}
