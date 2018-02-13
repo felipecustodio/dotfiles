@@ -45,11 +45,8 @@ zplug "plugins/tldr",   from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
-zplug "junegunn/fzf-bin", \
-    from:gh-r, \
-    as:command, \
-    rename-to:fzf, \
-    use:"*darwin*amd64*"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
@@ -58,7 +55,6 @@ if ! zplug check --verbose; then
         echo; zplug install
     fi
 fi
-
 zplug load
 
 # PATH
