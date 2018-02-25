@@ -45,7 +45,8 @@ module-margin-left = 1
 module-margin-right = 2
 
 font-1 = FontAwesome:fontformat=truetype:size=9;1
-font-0 = tamzen:size=11;1
+;font-0 = tamzen:size=11;1
+font-0 = scientifica:size=11;1
 
 modules-left = i3 xkeyboard
 modules-center = date
