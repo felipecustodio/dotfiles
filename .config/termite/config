@@ -23,7 +23,10 @@ scrollback_lines = 10000
 search_wrap = true
 
 # Font
-font = tamzen
+# font = SF Mono 12
+# font = creep
+# font = tamzen
+font = t cherry Wide 9
 
 # "system", "on" or "off"
 cursor_blink = system
