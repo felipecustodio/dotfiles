@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/lofi1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f2939",
+        "foreground": "#e2f0f2",
+        "cursor": "#e2f0f2"
+    },
+    "colors": {
+        "color0": "#1f2939",
+        "color1": "#F52086",
+        "color2": "#FF2488",
+        "color3": "#A26CAC",
+        "color4": "#439BC7",
+        "color5": "#A39ACB",
+        "color6": "#A9B4CF",
+        "color7": "#e2f0f2",
+        "color8": "#EAF5F8",
+        "color9": "#F52086",
+        "color10": "#FF2488",
+        "color11": "#A26CAC",
+        "color12": "#439BC7",
+        "color13": "#A39ACB",
+        "color14": "#A9B4CF",
+        "color15": "#e2f0f2"
+    }
+}

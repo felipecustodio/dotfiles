@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/tycho-wallpaper-0.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d212b",
+        "foreground": "#e1cbc0",
+        "cursor": "#e1cbc0"
+    },
+    "colors": {
+        "color0": "#0d212b",
+        "color1": "#5D686E",
+        "color2": "#997773",
+        "color3": "#C27E75",
+        "color4": "#B8887A",
+        "color5": "#737F85",
+        "color6": "#A5958D",
+        "color7": "#e1cbc0",
+        "color8": "#E5CFBB",
+        "color9": "#5D686E",
+        "color10": "#997773",
+        "color11": "#C27E75",
+        "color12": "#B8887A",
+        "color13": "#737F85",
+        "color14": "#A5958D",
+        "color15": "#e1cbc0"
+    }
+}
