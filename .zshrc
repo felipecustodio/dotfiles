@@ -17,7 +17,7 @@ export ZSH=/home/crochi/.oh-my-zsh
 
 # theme
 ZSH_THEME="spaceship"
-SPACESHIP_PROMPT_SYMBOL=""
+SPACESHIP_PROMPT_SYMBOL="λ"
 
 # auto-update (in days).
 export UPDATE_ZSH_DAYS=13
@@ -34,8 +34,13 @@ export LANG=en_US.UTF-8
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# dotfile management
+# dotfiles management
 alias dots='/usr/bin/git --git-dir=/home/crochi/.dots/ --work-tree=/home/crochi'
+
+# aliases
+alias yeah="yes"
+alias bye="shutdown now"
+alias update="sudo reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && yaourt -Syu"
 
 # zplug
 source ~/.zplug/init.zsh
