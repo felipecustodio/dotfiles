@@ -23,13 +23,15 @@ scrollback_lines = 10000
 search_wrap = true
 
 # Font
-# font = SF Mono 12
+font = SF Mono 12
 # font = creep
 # font = tamzen
-font = t cherry Wide 9
+# font = t cherry Wide 11
+
 
 # "system", "on" or "off"
 cursor_blink = system
+
 
 # "block", "underline" or "ibeam"
 cursor_shape = block

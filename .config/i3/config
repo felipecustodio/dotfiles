@@ -14,7 +14,8 @@ set $mod Mod4
 
 # Font
 # font pango:creep 9
-font pango:t cherry Wide 9
+# font pango:t cherry Wide 9
+font pango:SF Mono 10
 
 # Colors
 set_from_resource $fg i3wm.color7 #f0f0f0
