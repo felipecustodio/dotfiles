@@ -1,0 +1,29 @@
+/*
+ *
+ * Atom Stylesheet
+ *
+ */
+
+html, body { font-size: 11px; }
+
+Set comments font style to normal
+.editor, atom-text-editor::shadow {
+  .comment {
+    font-style: normal;
+  }
+}
+
+// Change line padding for readability
+.line, .line-number, .cursor {
+  line-height: 1.5;
+}
+
+// Font options
+.editor {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-weight: normal;
+  // Experimental
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
