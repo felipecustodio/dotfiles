@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Downloads/Telegram Desktop/themer-wallpaper-block-wave-dark-2880x1800.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1e2127",
+        "foreground": "#a2bfcc",
+        "cursor": "#a2bfcc"
+    },
+    "colors": {
+        "color0": "#1e2127",
+        "color1": "#975F54",
+        "color2": "#A45153",
+        "color3": "#AC9867",
+        "color4": "#3F6180",
+        "color5": "#60738C",
+        "color6": "#89768D",
+        "color7": "#a2bfcc",
+        "color8": "#8B919E",
+        "color9": "#975F54",
+        "color10": "#A45153",
+        "color11": "#AC9867",
+        "color12": "#3F6180",
+        "color13": "#60738C",
+        "color14": "#89768D",
+        "color15": "#a2bfcc"
+    }
+}

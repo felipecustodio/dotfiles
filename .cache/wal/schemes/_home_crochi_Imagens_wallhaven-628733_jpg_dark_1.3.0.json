@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Imagens/wallhaven-628733.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#232a22",
+        "foreground": "#e9dccd",
+        "cursor": "#e9dccd"
+    },
+    "colors": {
+        "color0": "#232a22",
+        "color1": "#718878",
+        "color2": "#9E8D6D",
+        "color3": "#D7A06D",
+        "color4": "#A79F93",
+        "color5": "#CEB29B",
+        "color6": "#BBC0BE",
+        "color7": "#e9dccd",
+        "color8": "#EDDFD4",
+        "color9": "#718878",
+        "color10": "#9E8D6D",
+        "color11": "#D7A06D",
+        "color12": "#A79F93",
+        "color13": "#CEB29B",
+        "color14": "#BBC0BE",
+        "color15": "#e9dccd"
+    }
+}

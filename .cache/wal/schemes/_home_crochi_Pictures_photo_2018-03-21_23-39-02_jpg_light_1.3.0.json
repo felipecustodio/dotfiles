@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/photo_2018-03-21_23-39-02.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f5f4f5",
+        "foreground": "#1A1D1F",
+        "cursor": "#1A1D1F"
+    },
+    "colors": {
+        "color0": "#f5f4f5",
+        "color1": "#668499",
+        "color2": "#996c66",
+        "color3": "#668699",
+        "color4": "#668e99",
+        "color5": "#669991",
+        "color6": "#667899",
+        "color7": "#1A1D1F",
+        "color8": "#7a7a7a",
+        "color9": "#668499",
+        "color10": "#996c66",
+        "color11": "#668699",
+        "color12": "#668e99",
+        "color13": "#669991",
+        "color14": "#667899",
+        "color15": "#1A1D1F"
+    }
+}

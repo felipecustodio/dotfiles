@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/wallhaven-wood1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1818",
+        "foreground": "#ede9e5",
+        "cursor": "#ede9e5"
+    },
+    "colors": {
+        "color0": "#1b1818",
+        "color1": "#6CB1C9",
+        "color2": "#9C9896",
+        "color3": "#CFB4A3",
+        "color4": "#F0CEB3",
+        "color5": "#8DBCCA",
+        "color6": "#A1C8D1",
+        "color7": "#ede9e5",
+        "color8": "#FAE9D5",
+        "color9": "#6CB1C9",
+        "color10": "#9C9896",
+        "color11": "#CFB4A3",
+        "color12": "#F0CEB3",
+        "color13": "#8DBCCA",
+        "color14": "#A1C8D1",
+        "color15": "#ede9e5"
+    }
+}
