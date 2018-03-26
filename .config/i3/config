@@ -166,7 +166,7 @@ bindsym XF86AudioPrev exec playerctl previous
 exec --no-startup-id compton --config ~/.config/compton.conf -b
 
 # wal
-exec --no-startup-id wal -R
+exec --no-startup-id wal -R -l
 
 # mopidy
 exec --no-startup-id mopidy
@@ -202,4 +202,5 @@ for_window [class="fceux"] floating enable
 for_window [class="Fceux"] floating enable
 for_window [class="tk"] floating enable
 for_window [class="Tk"] floating enable
-
+for_window [class="feh"] floating enable
+for_window [class="Feh"] floating enable
