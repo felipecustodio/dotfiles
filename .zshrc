@@ -40,7 +40,7 @@ alias dots='/usr/bin/git --git-dir=/home/crochi/.dots/ --work-tree=/home/crochi'
 # aliases
 alias yeah="yes"
 alias bye="shutdown now"
-alias update="sudo reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && yaourt -Syu"
+alias update="sudo reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && (yes | yaourt -Syu)"
 
 # zplug
 source ~/.zplug/init.zsh
