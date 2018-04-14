@@ -166,7 +166,11 @@ bindsym XF86AudioPrev exec playerctl previous
 exec --no-startup-id compton --config ~/.config/compton.conf -b
 
 # wal
-exec --no-startup-id wal -R -l
+exec --no-startup-id wal -R
+# exec --no-startup-id wal -R -l
+
+# blurme
+exec --no-startup-id ~/.scripts/blurme/blurme &
 
 # mopidy
 exec --no-startup-id mopidy
@@ -187,7 +191,7 @@ exec --no-startup-id redshift &
 exec --no-startup-id polybar -c ~/.config/polybar/main main &
 
 # dropbox
-exec --no-startup-id dropbox start &
+# exec --no-startup-id dropbox start &
 
 # lock screen
 bindsym $mod+Shift+x exec lock
