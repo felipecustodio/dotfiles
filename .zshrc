@@ -16,8 +16,9 @@ export ZSH=/home/crochi/.oh-my-zsh
 (cat /home/crochi/.cache/wal/sequences &)
 
 # theme
-ZSH_THEME="spaceship"
-SPACESHIP_PROMPT_SYMBOL="緑"
+ZSH_THEME="zeit"
+# ZSH_THEME="spaceship"
+# SPACESHIP_PROMPT_SYMBOL="緑"
 
 # auto-update (in days).
 export UPDATE_ZSH_DAYS=13
