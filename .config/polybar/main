@@ -44,11 +44,9 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-1 = FontAwesome:fontformat=truetype:size=9;1
-;font-0 = tamzen:size=11;1
-;font-0 = scientifica:size=11;1
-;font-0 = t cherry Wide:size=11;1
 font-0 = SF Mono:size=9;1
+font-1 = mplus Nerd Font Mono:antialias=false:pixelsize=12;1
+font-2 = FontAwesome:fontformat=truetype:size=9;1
 
 modules-left = i3 xkeyboard
 modules-center = date
@@ -77,7 +75,6 @@ label-indicator-underline = ${colors.secondary}
 [module/filesystem]
 type = internal/fs
 interval = 25
-
 mount-0 = /
 
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
@@ -90,47 +87,67 @@ type = internal/bspwm
 label-focused = %index%
 label-focused-background = ${colors.background-alt}
 label-focused-underline= ${colors.primary}
-label-focused-padding = 2
+label-focused-padding = 5
 
 label-occupied = %index%
-label-occupied-padding = 2
+label-occupied-padding = 5
 
 label-urgent = %index%!
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+label-urgent-padding = 5
 
 label-empty = %index%
 label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 2
+label-empty-padding = 5
 
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
-index-sort = true
+index-sort = false
 wrapping-scroll = false
 
-label-mode-padding = 2
+label-mode-padding = 5
 label-mode-foreground = #000
 label-mode-background = ${colors.primary}
 
+; workspace icons
+ws-icon-0 = 1;一
+ws-icon-1 = 2;二
+ws-icon-2 = 3;三
+ws-icon-3 = 4;四
+ws-icon-4 = 5;五
+ws-icon-5 = 6;六
+ws-icon-6 = 7;七
+ws-icon-7 = 8;八
+ws-icon-8 = 9;九
+ws-icon-9 = 10;十
+
 ; focused = Active workspace on focused monitor
-label-focused = %index%
+;label-focused = %index%
+label-focused = %icon%
+label-focused-font = 2
 label-focused-background = ${module/bspwm.label-focused-background}
 label-focused-underline = ${module/bspwm.label-focused-underline}
 label-focused-padding = ${module/bspwm.label-focused-padding}
 
 ; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
+;label-unfocused = %index%
+label-unfocused = %icon%
+label-unfocused-font = 2
 label-unfocused-padding = ${module/bspwm.label-occupied-padding}
 
 ; visible = Active workspace on unfocused monitor
-label-visible = %index%
+;label-visible = %index%
+label-visible = %icon%
+label-visible-font = 2
 label-visible-background = ${self.label-focused-background}
 label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %index%
+;label-urgent = %index%
+label-urgent = %icon%
+label-urgent-font = 2
 label-urgent-background = ${module/bspwm.label-urgent-background}
 label-urgent-padding = ${module/bspwm.label-urgent-padding}
 
