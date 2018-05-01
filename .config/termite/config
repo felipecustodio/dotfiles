@@ -23,6 +23,7 @@ scrollback_lines = 10000
 search_wrap = true
 
 # Font
+# font = mplus Nerd Font Mono
 font = SF Mono 12
 # font = creep
 # font = tamzen
