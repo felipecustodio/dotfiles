@@ -57,8 +57,8 @@ let g:syntastic_check_on_wq = 0
 " set termguicolors
 set t_Co=256
 set background=dark
-colorscheme gruvbox
-" colorscheme wal
+" colorscheme gruvbox
+colorscheme wal
 let g:airline_theme='minimalist'
 
 " Nerd Tree
