@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/Circuitous (Final).png",
+    "alpha": "100",
+    "special": {
+        "background": "#baa75f",
+        "foreground": "#e2dfe6",
+        "cursor": "#e2dfe6"
+    },
+    "colors": {
+        "color0": "#baa75f",
+        "color1": "#FDA4A3",
+        "color2": "#FECC8C",
+        "color3": "#FACEB0",
+        "color4": "#9C9EC1",
+        "color5": "#B0B1CD",
+        "color6": "#C6BDD0",
+        "color7": "#e2dfe6",
+        "color8": "#F8F7FA",
+        "color9": "#FDA4A3",
+        "color10": "#FECC8C",
+        "color11": "#FACEB0",
+        "color12": "#9C9EC1",
+        "color13": "#B0B1CD",
+        "color14": "#C6BDD0",
+        "color15": "#e2dfe6"
+    }
+}

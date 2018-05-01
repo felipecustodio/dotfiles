@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/aesthetic1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#e3eff6",
+        "foreground": "#353D3F",
+        "cursor": "#353D3F"
+    },
+    "colors": {
+        "color0": "#e3eff6",
+        "color1": "#666699",
+        "color2": "#669499",
+        "color3": "#669993",
+        "color4": "#668899",
+        "color5": "#668799",
+        "color6": "#668899",
+        "color7": "#353D3F",
+        "color8": "#71777b",
+        "color9": "#666699",
+        "color10": "#669499",
+        "color11": "#669993",
+        "color12": "#668899",
+        "color13": "#668799",
+        "color14": "#668899",
+        "color15": "#353D3F"
+    }
+}

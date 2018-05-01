@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/tycho-montana-2560\u00d71080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f9f9f6",
+        "foreground": "#1F3245",
+        "cursor": "#1F3245"
+    },
+    "colors": {
+        "color0": "#f9f9f6",
+        "color1": "#997066",
+        "color2": "#776699",
+        "color3": "#99668d",
+        "color4": "#996685",
+        "color5": "#99666f",
+        "color6": "#997966",
+        "color7": "#1F3245",
+        "color8": "#7c7c7b",
+        "color9": "#997066",
+        "color10": "#776699",
+        "color11": "#99668d",
+        "color12": "#996685",
+        "color13": "#99666f",
+        "color14": "#997966",
+        "color15": "#1F3245"
+    }
+}

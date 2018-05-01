@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/walls/ESP_014139_2070_desktop.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f8f2ee",
+        "foreground": "#142A38",
+        "cursor": "#142A38"
+    },
+    "colors": {
+        "color0": "#f8f2ee",
+        "color1": "#997766",
+        "color2": "#997e66",
+        "color3": "#997866",
+        "color4": "#997866",
+        "color5": "#669993",
+        "color6": "#997f66",
+        "color7": "#142A38",
+        "color8": "#7c7977",
+        "color9": "#997766",
+        "color10": "#997e66",
+        "color11": "#997866",
+        "color12": "#997866",
+        "color13": "#669993",
+        "color14": "#997f66",
+        "color15": "#142A38"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/ddr3dkykm3q01.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0D14",
+        "foreground": "#bdb3c1",
+        "cursor": "#bdb3c1"
+    },
+    "colors": {
+        "color0": "#0A0D14",
+        "color1": "#2B364C",
+        "color2": "#374767",
+        "color3": "#5F5159",
+        "color4": "#946D5D",
+        "color5": "#CB956E",
+        "color6": "#57608F",
+        "color7": "#bdb3c1",
+        "color8": "#D2AE9C",
+        "color9": "#2B364C",
+        "color10": "#374767",
+        "color11": "#5F5159",
+        "color12": "#946D5D",
+        "color13": "#CB956E",
+        "color14": "#57608F",
+        "color15": "#bdb3c1"
+    }
+}

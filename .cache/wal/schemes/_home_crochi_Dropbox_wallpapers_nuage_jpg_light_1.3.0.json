@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Dropbox/wallpapers/nuage.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#f3f6ee",
+        "foreground": "#002C3A",
+        "cursor": "#002C3A"
+    },
+    "colors": {
+        "color0": "#f3f6ee",
+        "color1": "#669987",
+        "color2": "#669980",
+        "color3": "#66996f",
+        "color4": "#6e9966",
+        "color5": "#669971",
+        "color6": "#779966",
+        "color7": "#002C3A",
+        "color8": "#797b77",
+        "color9": "#669987",
+        "color10": "#669980",
+        "color11": "#66996f",
+        "color12": "#6e9966",
+        "color13": "#669971",
+        "color14": "#779966",
+        "color15": "#002C3A"
+    }
+}

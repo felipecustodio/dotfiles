@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/hiroshinagai.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#151b06",
+        "foreground": "#c2b8c4",
+        "cursor": "#c2b8c4"
+    },
+    "colors": {
+        "color0": "#151b06",
+        "color1": "#67891E",
+        "color2": "#A59C3F",
+        "color3": "#1F3E82",
+        "color4": "#2C4F89",
+        "color5": "#22548E",
+        "color6": "#4E6995",
+        "color7": "#c2b8c4",
+        "color8": "#C4B6AF",
+        "color9": "#67891E",
+        "color10": "#A59C3F",
+        "color11": "#1F3E82",
+        "color12": "#2C4F89",
+        "color13": "#22548E",
+        "color14": "#4E6995",
+        "color15": "#c2b8c4"
+    }
+}

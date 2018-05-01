@@ -1,22 +1,19 @@
 #!/bin/sh
-if [ "${TERM:-none}" = "linux" ]; then
-    printf "%b" "\\e]P0fcfbf9"
-    printf "%b" "\\e]P1668b99"
-    printf "%b" "\\e]P2997666"
-    printf "%b" "\\e]P3997966"
-    printf "%b" "\\e]P4997c66"
-    printf "%b" "\\e]P5668d99"
-    printf "%b" "\\e]P6668f99"
-    printf "%b" "\\e]P7242020"
-    printf "%b" "\\e]P87e7d7c"
-    printf "%b" "\\e]P9668b99"
-    printf "%b" "\\e]PA997666"
-    printf "%b" "\\e]PB997966"
-    printf "%b" "\\e]PC997c66"
-    printf "%b" "\\e]PD668d99"
-    printf "%b" "\\e]PE668f99"
-    printf "%b" "\\e]PF242020"
-
-    # Fix artifacting.
-    clear
-fi
+[ "${TERM:-none}" = "linux" ] && \
+    printf '%b' '\e]P01f1411
+                 \e]P1aa8d87
+                 \e]P2aa5239
+                 \e]P3aa7e71
+                 \e]P4aa6e59
+                 \e]P5bab9ba
+                 \e]P6a89da1
+                 \e]P7c7c4c3
+                 \e]P8574e4c
+                 \e]P9aa8d87
+                 \e]PAaa5239
+                 \e]PBaa7e71
+                 \e]PCaa6e59
+                 \e]PDbab9ba
+                 \e]PEa89da1
+                 \e]PFc7c4c3
+                 \ec'

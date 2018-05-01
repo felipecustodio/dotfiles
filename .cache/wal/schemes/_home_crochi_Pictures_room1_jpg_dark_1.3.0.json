@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/room1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1423",
+        "foreground": "#96c3e0",
+        "cursor": "#96c3e0"
+    },
+    "colors": {
+        "color0": "#0e1423",
+        "color1": "#52566C",
+        "color2": "#2B559D",
+        "color3": "#2F53A4",
+        "color4": "#5068A0",
+        "color5": "#0E63DF",
+        "color6": "#997C81",
+        "color7": "#96c3e0",
+        "color8": "#B3B4C8",
+        "color9": "#52566C",
+        "color10": "#2B559D",
+        "color11": "#2F53A4",
+        "color12": "#5068A0",
+        "color13": "#0E63DF",
+        "color14": "#997C81",
+        "color15": "#96c3e0"
+    }
+}

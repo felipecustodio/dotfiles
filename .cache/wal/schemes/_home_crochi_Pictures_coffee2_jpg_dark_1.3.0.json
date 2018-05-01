@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/coffee2.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0A0F0B",
+        "foreground": "#d2bfab",
+        "cursor": "#d2bfab"
+    },
+    "colors": {
+        "color0": "#0A0F0B",
+        "color1": "#5E4A36",
+        "color2": "#2D5D4C",
+        "color3": "#636151",
+        "color4": "#965730",
+        "color5": "#967153",
+        "color6": "#5B8E72",
+        "color7": "#d2bfab",
+        "color8": "#C7C3BA",
+        "color9": "#5E4A36",
+        "color10": "#2D5D4C",
+        "color11": "#636151",
+        "color12": "#965730",
+        "color13": "#967153",
+        "color14": "#5B8E72",
+        "color15": "#d2bfab"
+    }
+}

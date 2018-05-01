@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/S5m285u.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c12",
+        "foreground": "#f19eaf",
+        "cursor": "#f19eaf"
+    },
+    "colors": {
+        "color0": "#0c0c12",
+        "color1": "#993048",
+        "color2": "#B12745",
+        "color3": "#D32F52",
+        "color4": "#E43C5F",
+        "color5": "#E63D61",
+        "color6": "#DE4E6C",
+        "color7": "#f19eaf",
+        "color8": "#FE6A87",
+        "color9": "#993048",
+        "color10": "#B12745",
+        "color11": "#D32F52",
+        "color12": "#E43C5F",
+        "color13": "#E63D61",
+        "color14": "#DE4E6C",
+        "color15": "#f19eaf"
+    }
+}

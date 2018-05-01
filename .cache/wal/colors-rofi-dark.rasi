@@ -1,9 +1,9 @@
 * {
-    active-background: #997666;
+    active-background: #aa5239;
     active-foreground: @foreground;
     normal-background: @background;
     normal-foreground: @foreground;
-    urgent-background: #668b99;
+    urgent-background: #aa8d87;
     urgent-foreground: @foreground;
 
     alternate-active-background: @background;
@@ -13,16 +13,16 @@
     alternate-urgent-background: @background;
     alternate-urgent-foreground: @foreground;
 
-    selected-active-background: #668b99;
+    selected-active-background: #aa8d87;
     selected-active-foreground: @foreground;
-    selected-normal-background: #997666;
+    selected-normal-background: #aa5239;
     selected-normal-foreground: @foreground;
-    selected-urgent-background: #997966;
+    selected-urgent-background: #aa7e71;
     selected-urgent-foreground: @foreground;
 
     background-color: @background;
-    background: #fcfbf9;
-    foreground: #242020;
+    background: #1f1411;
+    foreground: #c7c4c3;
     border-color: @background;
     spacing: 2;
 }
@@ -46,6 +46,17 @@
 
 #textbox {
     text-color: @foreground;
+}
+
+inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+    margin: 0px 0.3em 0em 0em;
+    text-color: @normal-foreground;
 }
 
 #listview {
@@ -117,6 +128,10 @@
 #sidebar {
     border: 2px 0px 0px;
     border-color: @border-color;
+}
+
+#button {
+    text-color: @normal-foreground;
 }
 
 #button.selected {

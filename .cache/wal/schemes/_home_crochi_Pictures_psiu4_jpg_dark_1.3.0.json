@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/psiu4.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1312",
+        "foreground": "#c8c3c0",
+        "cursor": "#c8c3c0"
+    },
+    "colors": {
+        "color0": "#1b1312",
+        "color1": "#5A6468",
+        "color2": "#6A6C6C",
+        "color3": "#8D5641",
+        "color4": "#916E60",
+        "color5": "#A18578",
+        "color6": "#748185",
+        "color7": "#c8c3c0",
+        "color8": "#DACAC0",
+        "color9": "#5A6468",
+        "color10": "#6A6C6C",
+        "color11": "#8D5641",
+        "color12": "#916E60",
+        "color13": "#A18578",
+        "color14": "#748185",
+        "color15": "#c8c3c0"
+    }
+}
