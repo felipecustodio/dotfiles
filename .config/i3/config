@@ -86,29 +86,41 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+# workspace names
+set $ws1 1
+set $ws2 2
+set $ws3 3
+set $ws4 4
+set $ws5 5
+set $ws6 6
+set $ws7 7
+set $ws8 8
+set $ws9 9
+set $ws10 10
+
 # switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -165,6 +177,9 @@ bindsym XF86AudioPrev exec playerctl previous
 # compton
 exec --no-startup-id compton --config ~/.config/compton.conf -b
 
+# dunst
+exec --no-startup-id dunst
+
 # wal
 exec --no-startup-id wal -R
 # exec --no-startup-id wal -R -l
@@ -176,7 +191,7 @@ exec --no-startup-id ~/.scripts/blurme/blurme &
 exec --no-startup-id mopidy
 
 # rofi (launcher)
-bindsym $mod+d exec rofi -separator-style none -hide-scrollbar -show run -display-run " " -lines 5 -eh 2 -bw 0 
+bindsym $mod+d exec rofi -separator-style none -hide-scrollbar -show run -display-run " " -lines 5 -eh 2 -bw 0
 
 # screenshot utility
 bindsym $mod+Shift+s exec spectacle
@@ -190,16 +205,20 @@ exec --no-startup-id redshift &
 # polybar
 exec --no-startup-id polybar -c ~/.config/polybar/main main &
 
+
 # dropbox
 # exec --no-startup-id dropbox start &
 
 # lock screen
-bindsym $mod+Shift+x exec lock
+bindsym $mod+Shift+x exec ~/.scripts/i3lock/lock
 
 # gaps
-for_window [class="^.*"] border pixel 4
-gaps inner 8
-gaps outer 8
+for_window [class="^.*"] border pixel 8
+#gaps inner 8
+#gaps outer 12
+
+# smart borders
+smart_borders on|no_gaps
 
 # floating windows
 for_window [class="fceux"] floating enable
