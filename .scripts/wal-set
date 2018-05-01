@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# script to set run wal and oomoxify
+
+if ! [ $(id -u) = 0 ]; then
+   echo "run with sudo -E" >&2
+   exit 1
+fi
+
+wal -i $1 -g --backend colorz
+oomoxify-cli  ~/.cache/wal/colors-oomox 
+
