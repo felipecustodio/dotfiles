@@ -43,6 +43,12 @@ alias yeah="yes"
 alias bye="shutdown now"
 alias update="sudo reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && (yes | yaourt -Syu)"
 alias untar="tar -xvf"
+alias aur="yeah | yaourt -S "
+alias pyp="pypy3 -m pip"
+alias nored="redshift -O 6500"
+alias myeyes="redshift -O 1500"
+
+
 eval $(thefuck --alias)
 
 
@@ -74,5 +80,9 @@ export PATH=$PATH:/opt/anaconda/bin
 # tensorflow / cuda
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64"
 export CUDA_HOME=/opt/cuda/
+
+# pypy
+export PATH=$PATH:/opt/pypy3/bin
+
 # ruby
 PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
