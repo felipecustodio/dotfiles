@@ -16,7 +16,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'bling/vim-airline'
 Plug 'jiangmiao/auto-pairs'
 Plug 'vim-airline/vim-airline-themes'
-" Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 Plug 'junegunn/goyo.vim'
 " Plug 'junegunn/limelight.vim'
 " Plug 'scrooloose/syntastic'
@@ -30,7 +30,7 @@ call plug#end()
 set tabstop=4
 syntax enable
 set number
-set cursorline
+" set cursorline
 set wildmenu
 set showmatch
 set hlsearch
