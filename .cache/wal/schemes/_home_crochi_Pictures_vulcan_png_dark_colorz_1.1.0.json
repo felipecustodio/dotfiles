@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/vulcan.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1611",
+        "foreground": "#c7c4c3",
+        "cursor": "#c7c4c3"
+    },
+    "colors": {
+        "color0": "#1f1611",
+        "color1": "#aa7d76",
+        "color2": "#aa6234",
+        "color3": "#6169aa",
+        "color4": "#7978aa",
+        "color5": "#8f85aa",
+        "color6": "#a79eb0",
+        "color7": "#c7c4c3",
+        "color8": "#57504c",
+        "color9": "#aa7d76",
+        "color10": "#aa6234",
+        "color11": "#6169aa",
+        "color12": "#7978aa",
+        "color13": "#8f85aa",
+        "color14": "#a79eb0",
+        "color15": "#c7c4c3"
+    }
+}

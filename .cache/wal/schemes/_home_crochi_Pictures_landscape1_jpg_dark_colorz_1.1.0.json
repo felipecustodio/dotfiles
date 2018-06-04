@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/landscape1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#201918",
+        "foreground": "#c7c5c5",
+        "cursor": "#c7c5c5"
+    },
+    "colors": {
+        "color0": "#201918",
+        "color1": "#aa8c86",
+        "color2": "#ab7a6e",
+        "color3": "#aa6b56",
+        "color4": "#c6bcae",
+        "color5": "#8484aa",
+        "color6": "#a9999f",
+        "color7": "#c7c5c5",
+        "color8": "#575251",
+        "color9": "#aa8c86",
+        "color10": "#ab7a6e",
+        "color11": "#aa6b56",
+        "color12": "#c6bcae",
+        "color13": "#8484aa",
+        "color14": "#a9999f",
+        "color15": "#c7c5c5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/book1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#201714",
+        "foreground": "#c7c5c4",
+        "cursor": "#c7c5c4"
+    },
+    "colors": {
+        "color0": "#201714",
+        "color1": "#c4a399",
+        "color2": "#ab644d",
+        "color3": "#ac8876",
+        "color4": "#94a982",
+        "color5": "#a394a2",
+        "color6": "#c4b5bb",
+        "color7": "#c7c5c4",
+        "color8": "#57514e",
+        "color9": "#c4a399",
+        "color10": "#ab644d",
+        "color11": "#ac8876",
+        "color12": "#94a982",
+        "color13": "#a394a2",
+        "color14": "#c4b5bb",
+        "color15": "#c7c5c4"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/rivendell.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d1320",
+        "foreground": "#c2c4c7",
+        "cursor": "#c2c4c7"
+    },
+    "colors": {
+        "color0": "#0d1320",
+        "color1": "#61a884",
+        "color2": "#1349ac",
+        "color3": "#5674bd",
+        "color4": "#3559b3",
+        "color5": "#1032aa",
+        "color6": "#a88ead",
+        "color7": "#c2c4c7",
+        "color8": "#494e57",
+        "color9": "#61a884",
+        "color10": "#1349ac",
+        "color11": "#5674bd",
+        "color12": "#3559b3",
+        "color13": "#1032aa",
+        "color14": "#a88ead",
+        "color15": "#c2c4c7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/sunset1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#10151f",
+        "foreground": "#c3c4c7",
+        "cursor": "#c3c4c7"
+    },
+    "colors": {
+        "color0": "#10151f",
+        "color1": "#ab8e8a",
+        "color2": "#2d58aa",
+        "color3": "#4f66b6",
+        "color4": "#6a77c3",
+        "color5": "#8a8ec4",
+        "color6": "#b6a7c1",
+        "color7": "#c3c4c7",
+        "color8": "#4b4f57",
+        "color9": "#ab8e8a",
+        "color10": "#2d58aa",
+        "color11": "#4f66b6",
+        "color12": "#6a77c3",
+        "color13": "#8a8ec4",
+        "color14": "#b6a7c1",
+        "color15": "#c3c4c7"
+    }
+}

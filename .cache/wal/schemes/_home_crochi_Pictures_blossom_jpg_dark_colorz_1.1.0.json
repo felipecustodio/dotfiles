@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/blossom.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#232222",
+        "foreground": "#c8c7c7",
+        "cursor": "#c8c7c7"
+    },
+    "colors": {
+        "color0": "#232222",
+        "color1": "#af736f",
+        "color2": "#c7bcbb",
+        "color3": "#ae554a",
+        "color4": "#9b9fa4",
+        "color5": "#c4a5a8",
+        "color6": "#b08c8f",
+        "color7": "#c8c7c7",
+        "color8": "#5a5959",
+        "color9": "#af736f",
+        "color10": "#c7bcbb",
+        "color11": "#ae554a",
+        "color12": "#9b9fa4",
+        "color13": "#c4a5a8",
+        "color14": "#b08c8f",
+        "color15": "#c8c7c7"
+    }
+}

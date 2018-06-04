@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/dive.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#211d1a",
+        "foreground": "#c7c6c5",
+        "cursor": "#c7c6c5"
+    },
+    "colors": {
+        "color0": "#211d1a",
+        "color1": "#c37863",
+        "color2": "#b59a7d",
+        "color3": "#a4a88f",
+        "color4": "#8caa96",
+        "color5": "#71a99e",
+        "color6": "#4ca6a8",
+        "color7": "#c7c6c5",
+        "color8": "#585553",
+        "color9": "#c37863",
+        "color10": "#b59a7d",
+        "color11": "#a4a88f",
+        "color12": "#8caa96",
+        "color13": "#71a99e",
+        "color14": "#4ca6a8",
+        "color15": "#c7c6c5"
+    }
+}

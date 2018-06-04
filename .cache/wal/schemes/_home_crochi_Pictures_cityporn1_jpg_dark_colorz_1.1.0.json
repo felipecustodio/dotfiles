@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/cityporn1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f171f",
+        "foreground": "#c3c5c7",
+        "cursor": "#c3c5c7"
+    },
+    "colors": {
+        "color0": "#0f171f",
+        "color1": "#0a78aa",
+        "color2": "#2369aa",
+        "color3": "#496dab",
+        "color4": "#7566aa",
+        "color5": "#a351a1",
+        "color6": "#aa1d72",
+        "color7": "#c3c5c7",
+        "color8": "#4b5157",
+        "color9": "#0a78aa",
+        "color10": "#2369aa",
+        "color11": "#496dab",
+        "color12": "#7566aa",
+        "color13": "#a351a1",
+        "color14": "#aa1d72",
+        "color15": "#c3c5c7"
+    }
+}

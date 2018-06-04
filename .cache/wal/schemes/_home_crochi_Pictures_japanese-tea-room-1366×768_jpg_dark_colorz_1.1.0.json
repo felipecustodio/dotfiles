@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/japanese-tea-room-1366\u00d7768.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1f1b",
+        "foreground": "#c7c7c6",
+        "cursor": "#c7c7c6"
+    },
+    "colors": {
+        "color0": "#1f1f1b",
+        "color1": "#aa6e21",
+        "color2": "#a7a68a",
+        "color3": "#9da654",
+        "color4": "#80aa2e",
+        "color5": "#67aa14",
+        "color6": "#589ca6",
+        "color7": "#c7c7c6",
+        "color8": "#575754",
+        "color9": "#aa6e21",
+        "color10": "#a7a68a",
+        "color11": "#9da654",
+        "color12": "#80aa2e",
+        "color13": "#67aa14",
+        "color14": "#589ca6",
+        "color15": "#c7c7c6"
+    }
+}

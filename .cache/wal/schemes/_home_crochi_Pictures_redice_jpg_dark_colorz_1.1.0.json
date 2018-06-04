@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/redice.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#11191f",
+        "foreground": "#c3c5c7",
+        "cursor": "#c3c5c7"
+    },
+    "colors": {
+        "color0": "#11191f",
+        "color1": "#1d6eaa",
+        "color2": "#3a76aa",
+        "color3": "#547daa",
+        "color4": "#7385aa",
+        "color5": "#998eaa",
+        "color6": "#aa5d6c",
+        "color7": "#c3c5c7",
+        "color8": "#4c5257",
+        "color9": "#1d6eaa",
+        "color10": "#3a76aa",
+        "color11": "#547daa",
+        "color12": "#7385aa",
+        "color13": "#998eaa",
+        "color14": "#aa5d6c",
+        "color15": "#c3c5c7"
+    }
+}

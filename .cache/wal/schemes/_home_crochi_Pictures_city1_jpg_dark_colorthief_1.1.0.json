@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/city1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050305",
+        "foreground": "#a4a0a3",
+        "cursor": "#a4a0a3"
+    },
+    "colors": {
+        "color0": "#050305",
+        "color1": "#5a4d48",
+        "color2": "#54575f",
+        "color3": "#806357",
+        "color4": "#bc6c4c",
+        "color5": "#7e8494",
+        "color6": "#a2a5a2",
+        "color7": "#a4a0a3",
+        "color8": "#494147",
+        "color9": "#5a4d48",
+        "color10": "#54575f",
+        "color11": "#806357",
+        "color12": "#bc6c4c",
+        "color13": "#7e8494",
+        "color14": "#a2a5a2",
+        "color15": "#a4a0a3"
+    }
+}
