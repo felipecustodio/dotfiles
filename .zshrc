@@ -9,7 +9,7 @@
 # \__|\________|\_______/ \__|  \__|\__|       \_______|
 #
 
-# Path to your oh-my-zsh installation.
+# path to your oh-my-zsh installation.
 export ZSH=/home/crochi/.oh-my-zsh
 
 # wal
@@ -47,19 +47,45 @@ alias aur="yeah | yaourt -S "
 alias pyp="pypy3 -m pip"
 alias nored="redshift -O 6500"
 alias myeyes="redshift -O 1500"
+alias status="git fetch && git status"
 
 
+# thefuck
 eval $(thefuck --alias)
 
+# even-better-ls
+# https://github.com/illinoisjackson/even-better-ls/
+LS_COLORS=$(ls_colors_generator)
+
+run_ls() {
+	ls-i --color=auto -w $(tput cols) "$@"
+}
+
+run_dir() {
+	dir-i --color=auto -w $(tput cols) "$@"
+}
+
+run_vdir() {
+	vdir-i --color=auto -w $(tput cols) "$@"
+}
+
+alias ls="run_ls"
+alias dir="run_dir"
+alias vdir="run_vdir"
 
 # zplug
 source ~/.zplug/init.zsh
 zplug "plugins/git",   from:oh-my-zsh
 zplug "plugins/wd",   from:oh-my-zsh
 zplug "plugins/tldr",   from:oh-my-zsh
-zplug "zsh-users/zsh-syntax-highlighting", defer:2
+# zplug "zsh-users/zsh-syntax-highlighting", defer:2
+zplug "zdharma/fast-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
+zplug "desyncr/auto-ls"
+zplug "ael-code/zsh-colored-man-pages"
+zplug "molovo/crash"
+zplug "rummik/zsh-ing"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -73,16 +99,11 @@ fi
 zplug load
 
 # PATH
+
 # node
-export PATH=$PATH:~/node_modules/.bin
-# conda
-export PATH=$PATH:/opt/anaconda/bin
-# tensorflow / cuda
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/cuda/lib64"
-export CUDA_HOME=/opt/cuda/
+export npm_config_prefix=~/.node_modules
+export PATH=$PATH:~/.node_modules/.bin
+source /usr/share/nvm/init-nvm.sh
 
 # pypy
 export PATH=$PATH:/opt/pypy3/bin
-
-# ruby
-PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
