@@ -13,8 +13,4 @@
 
 **Dotfile management:** [Dotfiles managed via a bare Git repository in $HOME.](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
 
-![neofetch](https://i.imgur.com/vJuQktQ.png)
-
-![colors](https://i.imgur.com/kIVU87I.png)
-
-![busy](https://i.imgur.com/XxedDmF.png)
+![](https://i.imgur.com/k8t2WzF.png)
