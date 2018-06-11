@@ -102,8 +102,13 @@ zplug load
 
 # node
 export npm_config_prefix=~/.node_modules
-export PATH=$PATH:~/.node_modules/.bin
-source /usr/share/nvm/init-nvm.sh
+PATH=$PATH:~/.node_modules/bin
+PATH=$PATH:~/.npm-global/bin
 
 # pypy
-export PATH=$PATH:/opt/pypy3/bin
+PATH=$PATH:/opt/pypy3/bin
+
+export PATH
+
+# fonts
+export FONTCONFIG_PATH=/etc/fonts
