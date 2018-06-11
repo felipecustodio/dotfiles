@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/ios12.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#eff0f2",
+        "foreground": "#3b3c3c",
+        "cursor": "#3b3c3c"
+    },
+    "colors": {
+        "color0": "#eff0f2",
+        "color1": "#9fb2c4",
+        "color2": "#6f86ac",
+        "color3": "#b6598c",
+        "color4": "#b896a7",
+        "color5": "#c1465e",
+        "color6": "#bf2f32",
+        "color7": "#3b3c3c",
+        "color8": "#b3b4b5",
+        "color9": "#9fb2c4",
+        "color10": "#6f86ac",
+        "color11": "#b6598c",
+        "color12": "#b896a7",
+        "color13": "#c1465e",
+        "color14": "#bf2f32",
+        "color15": "#3b3c3c"
+    }
+}

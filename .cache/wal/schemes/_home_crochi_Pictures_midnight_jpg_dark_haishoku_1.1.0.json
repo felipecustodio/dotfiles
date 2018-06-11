@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/midnight.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1a1c1e",
+        "foreground": "#c5c6c6",
+        "cursor": "#c5c6c6"
+    },
+    "colors": {
+        "color0": "#1a1c1e",
+        "color1": "#173963",
+        "color2": "#6c1840",
+        "color3": "#7b2170",
+        "color4": "#1c5685",
+        "color5": "#1e73bb",
+        "color6": "#695d93",
+        "color7": "#c5c6c6",
+        "color8": "#535456",
+        "color9": "#173963",
+        "color10": "#6c1840",
+        "color11": "#7b2170",
+        "color12": "#1c5685",
+        "color13": "#1e73bb",
+        "color14": "#695d93",
+        "color15": "#c5c6c6"
+    }
+}

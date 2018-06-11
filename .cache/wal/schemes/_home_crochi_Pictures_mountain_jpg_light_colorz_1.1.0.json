@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/mountain.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#edeff2",
+        "foreground": "#3b3b3c",
+        "cursor": "#3b3b3c"
+    },
+    "colors": {
+        "color0": "#edeff2",
+        "color1": "#c67067",
+        "color2": "#4474aa",
+        "color3": "#6383aa",
+        "color4": "#808daa",
+        "color5": "#a88196",
+        "color6": "#ab6568",
+        "color7": "#3b3b3c",
+        "color8": "#b1b3b5",
+        "color9": "#c67067",
+        "color10": "#4474aa",
+        "color11": "#6383aa",
+        "color12": "#808daa",
+        "color13": "#a88196",
+        "color14": "#ab6568",
+        "color15": "#3b3b3c"
+    }
+}
