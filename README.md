@@ -1,4 +1,4 @@
-てん | 
+ドット | 
 ------------|
 
 **Distro:** Antergos (Arch Linux)
