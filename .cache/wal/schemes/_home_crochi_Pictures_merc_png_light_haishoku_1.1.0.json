@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/merc.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f3f3f3",
+        "foreground": "#3c3c3c",
+        "cursor": "#3c3c3c"
+    },
+    "colors": {
+        "color0": "#f3f3f3",
+        "color1": "#495166",
+        "color2": "#7d787b",
+        "color3": "#7298c9",
+        "color4": "#b7a390",
+        "color5": "#9abedc",
+        "color6": "#c1b6a8",
+        "color7": "#3c3c3c",
+        "color8": "#b6b6b6",
+        "color9": "#495166",
+        "color10": "#7d787b",
+        "color11": "#7298c9",
+        "color12": "#b7a390",
+        "color13": "#9abedc",
+        "color14": "#c1b6a8",
+        "color15": "#3c3c3c"
+    }
+}

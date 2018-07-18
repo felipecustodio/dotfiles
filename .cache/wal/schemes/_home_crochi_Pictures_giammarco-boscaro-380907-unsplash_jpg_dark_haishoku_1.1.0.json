@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/giammarco-boscaro-380907-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1e1e",
+        "foreground": "#c6c6c6",
+        "cursor": "#c6c6c6"
+    },
+    "colors": {
+        "color0": "#1d1e1e",
+        "color1": "#674734",
+        "color2": "#816148",
+        "color3": "#817d7b",
+        "color4": "#b99376",
+        "color5": "#9eaab7",
+        "color6": "#cbaf97",
+        "color7": "#c6c6c6",
+        "color8": "#555656",
+        "color9": "#674734",
+        "color10": "#816148",
+        "color11": "#817d7b",
+        "color12": "#b99376",
+        "color13": "#9eaab7",
+        "color14": "#cbaf97",
+        "color15": "#c6c6c6"
+    }
+}

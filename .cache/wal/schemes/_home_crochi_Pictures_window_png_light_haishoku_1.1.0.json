@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/window.png",
+    "alpha": "100",
+    "special": {
+        "background": "#f0eff1",
+        "foreground": "#3c3b3c",
+        "cursor": "#3c3b3c"
+    },
+    "colors": {
+        "color0": "#f0eff1",
+        "color1": "#384365",
+        "color2": "#774446",
+        "color3": "#837676",
+        "color4": "#ba8d71",
+        "color5": "#84c5d8",
+        "color6": "#e4d493",
+        "color7": "#3c3b3c",
+        "color8": "#b4b3b4",
+        "color9": "#384365",
+        "color10": "#774446",
+        "color11": "#837676",
+        "color12": "#ba8d71",
+        "color13": "#84c5d8",
+        "color14": "#e4d493",
+        "color15": "#3c3b3c"
+    }
+}

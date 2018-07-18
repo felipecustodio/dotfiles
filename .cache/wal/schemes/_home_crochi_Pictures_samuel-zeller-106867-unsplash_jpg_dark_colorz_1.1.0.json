@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/samuel-zeller-106867-unsplash.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#201913",
+        "foreground": "#c7c5c4",
+        "cursor": "#c7c5c4"
+    },
+    "colors": {
+        "color0": "#201913",
+        "color1": "#aa5623",
+        "color2": "#ac7844",
+        "color3": "#aa8a67",
+        "color4": "#c39e67",
+        "color5": "#c5b9a5",
+        "color6": "#a7a290",
+        "color7": "#c7c5c4",
+        "color8": "#57524e",
+        "color9": "#aa5623",
+        "color10": "#ac7844",
+        "color11": "#aa8a67",
+        "color12": "#c39e67",
+        "color13": "#c5b9a5",
+        "color14": "#a7a290",
+        "color15": "#c7c5c4"
+    }
+}
