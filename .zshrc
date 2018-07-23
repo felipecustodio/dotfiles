@@ -49,7 +49,6 @@ alias nored="redshift -O 6500"
 alias myeyes="redshift -O 1500"
 alias status="git fetch && git status"
 
-
 # thefuck
 eval $(thefuck --alias)
 
@@ -107,6 +106,9 @@ PATH=$PATH:~/.npm-global/bin
 
 # pypy
 PATH=$PATH:/opt/pypy3/bin
+
+# ruby gems
+PATH=$PATH:/home/crochi/.gem/ruby/2.5.0/bin
 
 export PATH
 
