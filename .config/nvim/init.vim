@@ -33,6 +33,7 @@ Plug 'tpope/vim-commentary'			" Comment stuff out
 Plug 'jaxbot/browserlink.vim'		" Browser link
 Plug 'bling/vim-bufferline'			" Buffers bar
 Plug 'NovaDev94/lightline-onedark'	" Theme for Lightline
+Plug 'lifepillar/vim-solarized8'
 
 call plug#end()
 
@@ -52,14 +53,14 @@ set hlsearch
 " Status bar
 set laststatus=2
 
-if !has('gui_running')
-  set t_Co=256
-endif
+"if !has('gui_running')
+"  set t_Co=256
+"endif
 
 set noshowmode
 
 let g:lightline = {
-      \ 'colorscheme': 'seoul256',
+      \ 'colorscheme': 'solarized',
       \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
@@ -107,9 +108,11 @@ let g:gitgutter_sign_removed = ''
 
 " Color Scheme
 " set termguicolors
-set background=dark
+"set background=dark
 "colorscheme gruvbox
-colorscheme wal
+"colorscheme wal
+set background=light
+colorscheme solarized8
 
 " Nerd Tree
 map <C-n> :NERDTreeToggle<CR>
