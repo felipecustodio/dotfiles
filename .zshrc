@@ -77,7 +77,6 @@ source ~/.zplug/init.zsh
 zplug "plugins/git",   from:oh-my-zsh
 zplug "plugins/wd",   from:oh-my-zsh
 zplug "plugins/tldr",   from:oh-my-zsh
-# zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zdharma/fast-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-history-substring-search"
@@ -97,19 +96,20 @@ if ! zplug check --verbose; then
 fi
 zplug load
 
-# PATH
+# wal
+function rice { sudo -E wal -i "$1" -g --backend haishoku && sudo -E oomoxify-cli -g ~/.cache/wal/colors-oomox && sudo -E wal-steam -w }
+export rice
 
+
+# PATH
 # node
 export npm_config_prefix=~/.node_modules
 PATH=$PATH:~/.node_modules/bin
 PATH=$PATH:~/.npm-global/bin
-
 # pypy
 PATH=$PATH:/opt/pypy3/bin
-
 # ruby gems
 PATH=$PATH:/home/crochi/.gem/ruby/2.5.0/bin
-
 export PATH
 
 # fonts
