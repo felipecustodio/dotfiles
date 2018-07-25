@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/clown.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1c22",
+        "foreground": "#c6c6c7",
+        "cursor": "#c6c6c7"
+    },
+    "colors": {
+        "color0": "#1d1c22",
+        "color1": "#281b6b",
+        "color2": "#7d2123",
+        "color3": "#7d2f78",
+        "color4": "#753dd7",
+        "color5": "#bc4313",
+        "color6": "#7e71f4",
+        "color7": "#c6c6c7",
+        "color8": "#555459",
+        "color9": "#281b6b",
+        "color10": "#7d2123",
+        "color11": "#7d2f78",
+        "color12": "#753dd7",
+        "color13": "#bc4313",
+        "color14": "#7e71f4",
+        "color15": "#c6c6c7"
+    }
+}

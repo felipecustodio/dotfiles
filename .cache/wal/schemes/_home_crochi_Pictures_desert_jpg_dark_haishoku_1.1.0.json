@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/Pictures/desert.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1b1a",
+        "foreground": "#c7c6c5",
+        "cursor": "#c7c6c5"
+    },
+    "colors": {
+        "color0": "#1f1b1a",
+        "color1": "#2c1a29",
+        "color2": "#5d2909",
+        "color3": "#432d3b",
+        "color4": "#4e3541",
+        "color5": "#853b0d",
+        "color6": "#7e452f",
+        "color7": "#c7c6c5",
+        "color8": "#575453",
+        "color9": "#2c1a29",
+        "color10": "#5d2909",
+        "color11": "#432d3b",
+        "color12": "#4e3541",
+        "color13": "#853b0d",
+        "color14": "#7e452f",
+        "color15": "#c7c6c5"
+    }
+}
