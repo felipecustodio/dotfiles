@@ -28,7 +28,7 @@ search_wrap = true
 # font = creep
 # font = tamzen
 # font = t cherry Wide 11
-font = Input Mono 11
+font = Input Mono 14
 
 # "system", "on" or "off"
 cursor_blink = off
