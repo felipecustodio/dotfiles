@@ -41,12 +41,10 @@ alias dots='/usr/bin/git --git-dir=/home/crochi/.dots/ --work-tree=/home/crochi'
 # aliases
 alias yeah="yes"
 alias bye="shutdown now"
-alias update="sudo reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && (yes | yaourt -Syu)"
+alias update="sudo reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && (yes | yaourt -Syyuv --m-arg "--skipchecksums --skippgpcheck")"
 alias untar="tar -xvf"
 alias aur="yeah | yaourt -S "
 alias pyp="pypy3 -m pip"
-alias nored="redshift -O 6500"
-alias myeyes="redshift -O 1500"
 alias status="git fetch && git status"
 
 # thefuck
@@ -84,6 +82,7 @@ zplug "desyncr/auto-ls"
 zplug "ael-code/zsh-colored-man-pages"
 zplug "molovo/crash"
 zplug "rummik/zsh-ing"
+zplug "b4b4r07/emoji-cli"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
