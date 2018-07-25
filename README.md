@@ -13,4 +13,6 @@
 
 **Dotfile management:** [Dotfiles managed via a bare Git repository in $HOME.](https://developer.atlassian.com/blog/2016/02/best-way-to-store-dotfiles-git-bare-repo/)
 
-![](https://i.imgur.com/k8t2WzF.png)
+![](https://i.imgur.com/MJKll9m.png)
+
+![](https://i.imgur.com/Nsi5sgz.png)
