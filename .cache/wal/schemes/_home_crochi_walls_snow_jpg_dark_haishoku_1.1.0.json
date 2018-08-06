@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/snow.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1f20",
+        "foreground": "#c7c7c7",
+        "cursor": "#c7c7c7"
+    },
+    "colors": {
+        "color0": "#1f1f20",
+        "color1": "#3b494d",
+        "color2": "#485a59",
+        "color3": "#6d7a75",
+        "color4": "#828988",
+        "color5": "#898b86",
+        "color6": "#8b8f8c",
+        "color7": "#c7c7c7",
+        "color8": "#575757",
+        "color9": "#3b494d",
+        "color10": "#485a59",
+        "color11": "#6d7a75",
+        "color12": "#828988",
+        "color13": "#898b86",
+        "color14": "#8b8f8c",
+        "color15": "#c7c7c7"
+    }
+}

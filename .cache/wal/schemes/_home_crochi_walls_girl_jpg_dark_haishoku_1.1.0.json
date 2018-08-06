@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/girl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#231f20",
+        "foreground": "#c8c7c7",
+        "cursor": "#c8c7c7"
+    },
+    "colors": {
+        "color0": "#231f20",
+        "color1": "#674f49",
+        "color2": "#5f5d63",
+        "color3": "#715a4e",
+        "color4": "#898982",
+        "color5": "#a4afa3",
+        "color6": "#a8b9b1",
+        "color7": "#c8c7c7",
+        "color8": "#5a5757",
+        "color9": "#674f49",
+        "color10": "#5f5d63",
+        "color11": "#715a4e",
+        "color12": "#898982",
+        "color13": "#a4afa3",
+        "color14": "#a8b9b1",
+        "color15": "#c8c7c7"
+    }
+}

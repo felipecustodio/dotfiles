@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/vintage1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1c1e",
+        "foreground": "#c7c6c6",
+        "cursor": "#c7c6c6"
+    },
+    "colors": {
+        "color0": "#1f1c1e",
+        "color1": "#622e29",
+        "color2": "#434881",
+        "color3": "#5e4d5d",
+        "color4": "#867779",
+        "color5": "#b29d8f",
+        "color6": "#bdb2a1",
+        "color7": "#c7c6c6",
+        "color8": "#575456",
+        "color9": "#622e29",
+        "color10": "#434881",
+        "color11": "#5e4d5d",
+        "color12": "#867779",
+        "color13": "#b29d8f",
+        "color14": "#bdb2a1",
+        "color15": "#c7c6c6"
+    }
+}

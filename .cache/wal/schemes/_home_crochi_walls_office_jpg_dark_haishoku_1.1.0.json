@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/office.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#221f1f",
+        "foreground": "#c7c7c7",
+        "cursor": "#c7c7c7"
+    },
+    "colors": {
+        "color0": "#221f1f",
+        "color1": "#673e24",
+        "color2": "#484e58",
+        "color3": "#4f5d63",
+        "color4": "#7b5f43",
+        "color5": "#78857f",
+        "color6": "#c1be94",
+        "color7": "#c7c7c7",
+        "color8": "#595757",
+        "color9": "#673e24",
+        "color10": "#484e58",
+        "color11": "#4f5d63",
+        "color12": "#7b5f43",
+        "color13": "#78857f",
+        "color14": "#c1be94",
+        "color15": "#c7c7c7"
+    }
+}

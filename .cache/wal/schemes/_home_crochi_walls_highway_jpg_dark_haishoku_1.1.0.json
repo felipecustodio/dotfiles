@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/highway.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1e20",
+        "foreground": "#c6c6c7",
+        "cursor": "#c6c6c7"
+    },
+    "colors": {
+        "color0": "#1d1e20",
+        "color1": "#26405d",
+        "color2": "#6c3732",
+        "color3": "#355172",
+        "color4": "#586e87",
+        "color5": "#60779b",
+        "color6": "#8296b0",
+        "color7": "#c6c6c7",
+        "color8": "#555657",
+        "color9": "#26405d",
+        "color10": "#6c3732",
+        "color11": "#355172",
+        "color12": "#586e87",
+        "color13": "#60779b",
+        "color14": "#8296b0",
+        "color15": "#c6c6c7"
+    }
+}
