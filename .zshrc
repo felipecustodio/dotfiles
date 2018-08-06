@@ -42,6 +42,7 @@ alias dots='/usr/bin/git --git-dir=/home/crochi/.dots/ --work-tree=/home/crochi'
 alias yeah="yes"
 alias bye="shutdown now"
 alias update="sudo reflector --latest 200 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && (yes | yaourt -Syyuv --m-arg "--skipchecksums --skippgpcheck")"
+alias mirrors="sudo reflector --latest 50 --protocol https --sort rate"
 alias untar="tar -xvf"
 alias aur="yeah | yaourt -S "
 alias pyp="pypy3 -m pip"
@@ -109,7 +110,11 @@ PATH=$PATH:~/.npm-global/bin
 PATH=$PATH:/opt/pypy3/bin
 # ruby gems
 PATH=$PATH:/home/crochi/.gem/ruby/2.5.0/bin
+# git annex
+PATH=$PATH:/home/crochi/Downloads/git-annex.linux
+
 export PATH
+
 
 # fonts
 export FONTCONFIG_PATH=/etc/fonts
