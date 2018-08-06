@@ -2,23 +2,40 @@ code:~/Dropbox/code
 sandbox:~/Dropbox/code/sandbox
 tensorflow:~/tensorflow/tensorflow
 nature:~/Dropbox/code/kadenze/nature-of-code
-walls:~/Dropbox/wallpapers
 processing:~/Dropbox/code/processing/processing
-colors:~/Color-Scripts/color-scripts
 ums:/opt/ums
-site:~/Dropbox/code/felipecustodio.github.io
 parallel:~/Dropbox/code/parallel
 polybar:~/.config/polybar
 games:~/ROMs/games
 nesdev:~/games/NES
 roms:~/ROMs/games
-web:~/Dropbox/code/web
 comp:~/Computer Science
-org:~/Dropbox/code/computer-organization
 graph:~/Dropbox/code/graph
 dip:~/Dropbox/code/digital-image-processing
 recommender:~/Dropbox/code/recommender-systems
 ai:~/Dropbox/code/ai
 pics:~/Pictures
-recom:~/Dropbox/code/recommender-systems/assignment1
 scripts:~/.scripts
+bootcamp:~/Dropbox/code/bootcamp
+org:~/Dropbox/code/computer-organization/assignment2_CPU
+petshop:~/Dropbox/code/web/petshop
+web\]:~/Dropbox/code/college/web
+web:~/Dropbox/code/college/web
+db:~/Dropbox/code/databases
+bd:~/Dropbox/code/databases
+voice:~/.scripts/voice
+colors:~/.scripts/colors
+site:~/Dropbox/code/felipecustodio.github.io
+databases:~/Dropbox/code/databases
+pdi:~/Dropbox/code/steganography
+stream:~/Streaming
+recom:~/Dropbox/code/recommender-systems/assignment2
+func:~/Dropbox/code/functional
+generative:~/Dropbox/code/processing/processing/generative-course
+gen:~/Dropbox/code/processing/processing/generative-course
+paral:~/Dropbox/code/parallel
+conc:~/Dropbox/code/parallel
+drive:~/drive
+books:~/drive/Computer Science/Textbooks
+read:~/drive/Computer Science/Reading
+walls:~/walls
