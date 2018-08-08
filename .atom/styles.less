@@ -7,9 +7,11 @@
  @import "syntax-variables";
  @import "ui-variables";
 
-html, body { font-size: 11px; }
+html, body {
+  font-size: 14px;
+}
 
-Set comments font style to normal
+// Set comments font style to normal
 .editor, atom-text-editor::shadow {
 
   .comment {
@@ -19,8 +21,8 @@ Set comments font style to normal
   // makes the cursor pulse
   .cursor {
     transition: opacity 0.5s;
-    border: 1px solid;
-    background-color: rgba(255,255,255,1);
+    // border: 1px solid;
+    // background-color: rgba(255,255,255,1);
   }
 
 }
