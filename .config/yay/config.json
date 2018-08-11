@@ -3,7 +3,7 @@
 	"editor": "",
 	"editorflags": "",
 	"makepkgbin": "makepkg",
-	"pacmanbin": "powerpill",
+	"pacmanbin": "pacman",
 	"pacmanconf": "/etc/pacman.conf",
 	"tarbin": "bsdtar",
 	"redownload": "no",
