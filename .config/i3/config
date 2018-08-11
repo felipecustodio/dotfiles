@@ -98,6 +98,10 @@ set $ws8 8
 set $ws9 9
 set $ws10 10
 
+# assign apps to workspaces
+assign [class="Spotify"] 5
+
+
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -180,8 +184,10 @@ exec --no-startup-id compton --config ~/.config/compton.conf -b
 # dunst
 exec --no-startup-id dunst
 
-# wal
+# wal - dark
 exec --no-startup-id wal -R
+
+# wal - light
 # exec --no-startup-id wal -R -l
 
 # blurme
@@ -205,20 +211,19 @@ exec --no-startup-id redshift &
 # polybar
 exec --no-startup-id polybar -c ~/.config/polybar/main main &
 
-
 # dropbox
 # exec --no-startup-id dropbox start &
 
 # lock screen
-bindsym $mod+Shift+x exec ~/.scripts/i3lock/lock
+bindsym $mod+Shift+x exec lock
 
 # gaps
-for_window [class="^.*"] border pixel 8
+for_window [class="^.*"] border pixel 6
 #gaps inner 8
 #gaps outer 12
 
 # smart borders
-smart_borders on|no_gaps
+smart_borders on
 
 # floating windows
 for_window [class="fceux"] floating enable
@@ -227,3 +232,5 @@ for_window [class="tk"] floating enable
 for_window [class="Tk"] floating enable
 for_window [class="feh"] floating enable
 for_window [class="Feh"] floating enable
+for_window [class="atom"] floating enable
+for_window [class="Atom"] floating enable
