@@ -39,3 +39,5 @@ drive:~/drive
 books:~/drive/Computer Science/Textbooks
 read:~/drive/Computer Science/Reading
 walls:~/walls
+algo:~/Dropbox/code/algorithm
+retroarch:~/.config/retroarch
