@@ -1,0 +1,24 @@
+mpv 
+search /wolf
+shell wal -i  %s
+shell wal -i %s
+shell wal %s
+shell wal -i %s -g
+shell wal -i  %s -g 
+search wolf
+shell wal -i  %s -g -l
+rename xx_00000'.png
+
+search
+open_with 
+shell 
+rename mojave_dynamic_16q.jpeg
+shell mv %s office.jpg
+shell mv %s highway.jpg
+shell mv %s subway.jpg
+shell mv %s office2.jpg
+shell mv %s city.jpg
+shell mv %s girl.jpg
+shell mv %s neon.jpg
+shell mv %s snow.jpg
+shell rice %s
