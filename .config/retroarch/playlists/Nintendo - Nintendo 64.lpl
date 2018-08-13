@@ -12,8 +12,8 @@ DETECT
 N64.lpl
 /home/crochi/ROMs/A Bug's Life (U) [!].v64
 A Bug's Life (U) [!]
-DETECT
-DETECT
+/home/crochi/.config/retroarch/cores/mupen64plus_libretro.so
+Mupen64Plus OpenGL
 DETECT
 N64.lpl
 /home/crochi/ROMs/Aerofighter's Assault (U) [!].z64
@@ -204,8 +204,8 @@ DETECT
 N64.lpl
 /home/crochi/ROMs/Bomberman 64 (U) [!].z64
 Bomberman 64 (U) [!]
-DETECT
-DETECT
+/home/crochi/.config/retroarch/cores/mupen64plus_libretro.so
+Mupen64Plus OpenGL
 DETECT
 N64.lpl
 /home/crochi/ROMs/Bomberman 64 - The Second Attack! (U) [!].z64

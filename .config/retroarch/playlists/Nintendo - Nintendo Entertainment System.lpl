@@ -156,8 +156,8 @@ DETECT
 NES.lpl
 /home/crochi/ROMs/Adventures of Lolo, The.nes
 Adventures of Lolo, The
-DETECT
-DETECT
+/home/crochi/.config/retroarch/cores/fceumm_libretro.so
+FCEUmm
 DETECT
 NES.lpl
 /home/crochi/ROMs/Adventures of Rad Gravity, The.nes
