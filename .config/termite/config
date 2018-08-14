@@ -24,11 +24,10 @@ search_wrap = true
 
 # Font
 # font = mplus Nerd Font Mono
-# font = SF Mono Heavy 11
+font = SF Mono 12
 # font = creep
 # font = tamzen
-# font = t cherry Wide 11
-font = Input Mono 14
+# font = Input Mono 14
 
 # "system", "on" or "off"
 cursor_blink = off
