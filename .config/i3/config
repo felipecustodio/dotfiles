@@ -243,3 +243,8 @@ for_window [class="atom"] resize set 640 480
 for_window [class="java"] floating enable
 for_window [class="Java"] floating enable
 for_window [class="floatermite"] floating enable
+for_window [class="sakura"] floating enable
+for_window [class="Sakura"] floating enable
+for_window [class="steam"] floating enable
+for_window [class="Steam"] floating enable
+
