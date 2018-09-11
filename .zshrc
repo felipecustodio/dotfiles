@@ -84,6 +84,7 @@ zplug "ael-code/zsh-colored-man-pages"
 zplug "molovo/crash"
 zplug "rummik/zsh-ing"
 zplug "b4b4r07/emoji-cli"
+zplug "nojhan/liquidprompt"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
