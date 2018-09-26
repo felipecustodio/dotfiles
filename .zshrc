@@ -47,6 +47,7 @@ alias untar="tar -xvf"
 alias aur="yeah | yaourt -S "
 alias pyp="pypy3 -m pip"
 alias status="git fetch && git status"
+alias cp="rsync -avP "
 
 # thefuck
 eval $(thefuck --alias)
@@ -84,7 +85,7 @@ zplug "ael-code/zsh-colored-man-pages"
 zplug "molovo/crash"
 zplug "rummik/zsh-ing"
 zplug "b4b4r07/emoji-cli"
-zplug "nojhan/liquidprompt"
+#zplug "nojhan/liquidprompt"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -98,9 +99,8 @@ fi
 zplug load
 
 # wal
-function rice { sudo -E wal -i "$1" -g --backend haishoku && sudo -E oomoxify-cli -g ~/.cache/wal/colors-oomox && sudo -E wal-steam -w }
+function rice { sudo -E wal -i "$1" -g --backend "$2" && sudo -E oomoxify-cli -g ~/.cache/wal/colors-oomox && sudo -E wal-steam -w }
 export rice
-
 
 # PATH
 # node
