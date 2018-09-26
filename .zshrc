@@ -49,6 +49,11 @@ alias pyp="pypy3 -m pip"
 alias status="git fetch && git status"
 alias cp="rsync -avP "
 
+# unzip
+function zipper { unzip "$1" -d "${1%.*}" }
+export zipper
+
+
 # thefuck
 eval $(thefuck --alias)
 
@@ -99,7 +104,7 @@ fi
 zplug load
 
 # wal
-function rice { sudo -E wal -i "$1" -g --backend "$2" && sudo -E oomoxify-cli -g ~/.cache/wal/colors-oomox && sudo -E wal-steam -w }
+function rice { sudo -E wal -i "$1" -g --backend "$2" && sudo -E oomoxify-cli -g ~/.cache/wal/colors-oomox && ~/.wal-telegram/wal-telegram && sudo -E wal-steam -w }
 export rice
 
 # PATH
