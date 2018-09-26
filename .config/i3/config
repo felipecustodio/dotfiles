@@ -177,6 +177,9 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# screenshot
+bindsym Print exec --no-startup-id spectacle -o ~/screenshots/`date +%Y%m%d%H%M%S`.png -r -b
+
 # compton
 exec --no-startup-id compton --config ~/.config/compton.conf -b
 
@@ -185,9 +188,6 @@ exec --no-startup-id dunst
 
 # wal - dark
 exec --no-startup-id wal -R
-
-# wal - light
-# exec --no-startup-id wal -R -l
 
 # blurme
 exec --no-startup-id ~/.scripts/blurme/blurme &
