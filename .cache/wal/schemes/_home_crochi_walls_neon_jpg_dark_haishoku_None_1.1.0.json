@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/neon.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1d1b",
+        "foreground": "#c6c6c6",
+        "cursor": "#c6c6c6"
+    },
+    "colors": {
+        "color0": "#1d1d1b",
+        "color1": "#6b3c20",
+        "color2": "#7e6b3c",
+        "color3": "#837e6c",
+        "color4": "#c78a41",
+        "color5": "#c2996b",
+        "color6": "#d0b77f",
+        "color7": "#c6c6c6",
+        "color8": "#555554",
+        "color9": "#6b3c20",
+        "color10": "#7e6b3c",
+        "color11": "#837e6c",
+        "color12": "#c78a41",
+        "color13": "#c2996b",
+        "color14": "#d0b77f",
+        "color15": "#c6c6c6"
+    }
+}

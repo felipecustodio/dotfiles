@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/pape/vibrant/1521710681899.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040204",
+        "foreground": "#a29ea1",
+        "cursor": "#a29ea1"
+    },
+    "colors": {
+        "color0": "#040204",
+        "color1": "#bc485d",
+        "color2": "#75697b",
+        "color3": "#956f93",
+        "color4": "#df651b",
+        "color5": "#928cbf",
+        "color6": "#cd8871",
+        "color7": "#a29ea1",
+        "color8": "#463e44",
+        "color9": "#bc485d",
+        "color10": "#75697b",
+        "color11": "#956f93",
+        "color12": "#df651b",
+        "color13": "#928cbf",
+        "color14": "#cd8871",
+        "color15": "#a29ea1"
+    }
+}

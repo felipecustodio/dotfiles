@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/crochi/walls/pape/vibrant/1521710681899.png"
+let background = "#160e15"
+let foreground = "#afacbd"
+let cursor     = "#afacbd"
+
+" Colors
+let color0  = "#160e15"
+let color1  = "#C24858"
+let color2  = "#D05060"
+let color3  = "#C6796D"
+let color4  = "#6C8B7A"
+let color5  = "#BB916C"
+let color6  = "#EBA169"
+let color7  = "#afacbd"
+let color8  = "#7a7884"
+let color9  = "#C24858"
+let color10 = "#D05060"
+let color11 = "#C6796D"
+let color12 = "#6C8B7A"
+let color13 = "#BB916C"
+let color14 = "#EBA169"
+let color15 = "#afacbd"

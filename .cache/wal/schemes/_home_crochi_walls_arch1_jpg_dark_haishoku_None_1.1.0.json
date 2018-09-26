@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/arch1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1d1e1f",
+        "foreground": "#c6c6c7",
+        "cursor": "#c6c6c7"
+    },
+    "colors": {
+        "color0": "#1d1e1f",
+        "color1": "#7c0b29",
+        "color2": "#373b44",
+        "color3": "#da052f",
+        "color4": "#464d58",
+        "color5": "#5e697a",
+        "color6": "#69778b",
+        "color7": "#c6c6c7",
+        "color8": "#555657",
+        "color9": "#7c0b29",
+        "color10": "#373b44",
+        "color11": "#da052f",
+        "color12": "#464d58",
+        "color13": "#5e697a",
+        "color14": "#69778b",
+        "color15": "#c6c6c7"
+    }
+}

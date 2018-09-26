@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/subway.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1e2222",
+        "foreground": "#c6c7c7",
+        "cursor": "#c6c7c7"
+    },
+    "colors": {
+        "color0": "#1e2222",
+        "color1": "#755a44",
+        "color2": "#b06f47",
+        "color3": "#9e794f",
+        "color4": "#ce8a50",
+        "color5": "#f9c56a",
+        "color6": "#f9e095",
+        "color7": "#c6c7c7",
+        "color8": "#565959",
+        "color9": "#755a44",
+        "color10": "#b06f47",
+        "color11": "#9e794f",
+        "color12": "#ce8a50",
+        "color13": "#f9c56a",
+        "color14": "#f9e095",
+        "color15": "#c6c7c7"
+    }
+}

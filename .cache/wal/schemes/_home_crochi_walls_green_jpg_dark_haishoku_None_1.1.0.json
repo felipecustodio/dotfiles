@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/green.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1e231e",
+        "foreground": "#c6c8c6",
+        "cursor": "#c6c8c6"
+    },
+    "colors": {
+        "color0": "#1e231e",
+        "color1": "#436f40",
+        "color2": "#4a7760",
+        "color3": "#6c8a47",
+        "color4": "#7c946e",
+        "color5": "#9ab481",
+        "color6": "#bec78d",
+        "color7": "#c6c8c6",
+        "color8": "#565a56",
+        "color9": "#436f40",
+        "color10": "#4a7760",
+        "color11": "#6c8a47",
+        "color12": "#7c946e",
+        "color13": "#9ab481",
+        "color14": "#bec78d",
+        "color15": "#c6c8c6"
+    }
+}

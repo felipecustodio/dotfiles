@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/arcade.png",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1b1e",
+        "foreground": "#c6c6c6",
+        "cursor": "#c6c6c6"
+    },
+    "colors": {
+        "color0": "#1b1b1e",
+        "color1": "#2b2770",
+        "color2": "#253bc5",
+        "color3": "#6e2a7d",
+        "color4": "#2a76da",
+        "color5": "#7e7edf",
+        "color6": "#8dbfef",
+        "color7": "#c6c6c6",
+        "color8": "#545456",
+        "color9": "#2b2770",
+        "color10": "#253bc5",
+        "color11": "#6e2a7d",
+        "color12": "#2a76da",
+        "color13": "#7e7edf",
+        "color14": "#8dbfef",
+        "color15": "#c6c6c6"
+    }
+}

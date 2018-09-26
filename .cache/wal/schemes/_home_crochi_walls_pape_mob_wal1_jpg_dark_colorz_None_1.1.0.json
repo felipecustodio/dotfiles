@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/pape/mob/wal1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#17191f",
+        "foreground": "#c5c5c7",
+        "cursor": "#c5c5c7"
+    },
+    "colors": {
+        "color0": "#17191f",
+        "color1": "#788caa",
+        "color2": "#6376aa",
+        "color3": "#8891ab",
+        "color4": "#9b97a9",
+        "color5": "#a9959e",
+        "color6": "#c2b4b9",
+        "color7": "#c5c5c7",
+        "color8": "#515257",
+        "color9": "#788caa",
+        "color10": "#6376aa",
+        "color11": "#8891ab",
+        "color12": "#9b97a9",
+        "color13": "#a9959e",
+        "color14": "#c2b4b9",
+        "color15": "#c5c5c7"
+    }
+}

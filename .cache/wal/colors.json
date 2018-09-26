@@ -1,28 +1,28 @@
 {
-    "wallpaper": "/home/crochi/walls/art1.jpg",
+    "wallpaper": "/home/crochi/walls/pape/vibrant/1521710681899.png",
     "alpha": "100",
 
     "special": {
-        "background": "#1a2427",
-        "foreground": "#c5c8c9",
-        "cursor": "#c5c8c9"
+        "background": "#160e15",
+        "foreground": "#afacbd",
+        "cursor": "#afacbd"
     },
     "colors": {
-        "color0": "#1a2427",
-        "color1": "#922d2a",
-        "color2": "#396f7d",
-        "color3": "#718c8e",
-        "color4": "#73a2af",
-        "color5": "#d38681",
-        "color6": "#8fb6bf",
-        "color7": "#c5c8c9",
-        "color8": "#535a5d",
-        "color9": "#922d2a",
-        "color10": "#396f7d",
-        "color11": "#718c8e",
-        "color12": "#73a2af",
-        "color13": "#d38681",
-        "color14": "#8fb6bf",
-        "color15": "#c5c8c9"
+        "color0": "#160e15",
+        "color1": "#C24858",
+        "color2": "#D05060",
+        "color3": "#C6796D",
+        "color4": "#6C8B7A",
+        "color5": "#BB916C",
+        "color6": "#EBA169",
+        "color7": "#afacbd",
+        "color8": "#7a7884",
+        "color9": "#C24858",
+        "color10": "#D05060",
+        "color11": "#C6796D",
+        "color12": "#6C8B7A",
+        "color13": "#BB916C",
+        "color14": "#EBA169",
+        "color15": "#afacbd"
     }
 }

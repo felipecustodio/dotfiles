@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/pape/anatomy/1530528917203.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#2a221d",
+        "foreground": "#e3dbd0",
+        "cursor": "#e3dbd0"
+    },
+    "colors": {
+        "color0": "#2a221d",
+        "color1": "#CA8E73",
+        "color2": "#D09977",
+        "color3": "#AEA08F",
+        "color4": "#D6AB91",
+        "color5": "#DCAE94",
+        "color6": "#CEBAA5",
+        "color7": "#e3dbd0",
+        "color8": "#9e9991",
+        "color9": "#CA8E73",
+        "color10": "#D09977",
+        "color11": "#AEA08F",
+        "color12": "#D6AB91",
+        "color13": "#DCAE94",
+        "color14": "#CEBAA5",
+        "color15": "#e3dbd0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/pape/greek/1535992658708.png",
+    "alpha": "100",
+    "special": {
+        "background": "#131010",
+        "foreground": "#e0d7d6",
+        "cursor": "#e0d7d6"
+    },
+    "colors": {
+        "color0": "#131010",
+        "color1": "#C28875",
+        "color2": "#7F7D82",
+        "color3": "#908E90",
+        "color4": "#A19D9F",
+        "color5": "#AFAEB1",
+        "color6": "#D4A89E",
+        "color7": "#e0d7d6",
+        "color8": "#9c9695",
+        "color9": "#C28875",
+        "color10": "#7F7D82",
+        "color11": "#908E90",
+        "color12": "#A19D9F",
+        "color13": "#AFAEB1",
+        "color14": "#D4A89E",
+        "color15": "#e0d7d6"
+    }
+}

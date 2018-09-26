@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/jap3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#232321",
+        "foreground": "#c8c8c7",
+        "cursor": "#c8c8c7"
+    },
+    "colors": {
+        "color0": "#232321",
+        "color1": "#675b4b",
+        "color2": "#606149",
+        "color3": "#726753",
+        "color4": "#8e8079",
+        "color5": "#af9996",
+        "color6": "#b5a09c",
+        "color7": "#c8c8c7",
+        "color8": "#5a5a58",
+        "color9": "#675b4b",
+        "color10": "#606149",
+        "color11": "#726753",
+        "color12": "#8e8079",
+        "color13": "#af9996",
+        "color14": "#b5a09c",
+        "color15": "#c8c8c7"
+    }
+}

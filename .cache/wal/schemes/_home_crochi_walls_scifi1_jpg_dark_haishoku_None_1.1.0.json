@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/scifi1.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f242b",
+        "foreground": "#c7c8ca",
+        "cursor": "#c7c8ca"
+    },
+    "colors": {
+        "color0": "#1f242b",
+        "color1": "#833c7d",
+        "color2": "#217193",
+        "color3": "#1e89b3",
+        "color4": "#7a7390",
+        "color5": "#6c90bc",
+        "color6": "#12bdc6",
+        "color7": "#c7c8ca",
+        "color8": "#575a60",
+        "color9": "#833c7d",
+        "color10": "#217193",
+        "color11": "#1e89b3",
+        "color12": "#7a7390",
+        "color13": "#6c90bc",
+        "color14": "#12bdc6",
+        "color15": "#c7c8ca"
+    }
+}

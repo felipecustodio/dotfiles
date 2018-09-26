@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/dog.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#222221",
+        "foreground": "#c7c7c7",
+        "cursor": "#c7c7c7"
+    },
+    "colors": {
+        "color0": "#222221",
+        "color1": "#b51420",
+        "color2": "#5f5d58",
+        "color3": "#908983",
+        "color4": "#d69789",
+        "color5": "#acbdca",
+        "color6": "#f1c78e",
+        "color7": "#c7c7c7",
+        "color8": "#595958",
+        "color9": "#b51420",
+        "color10": "#5f5d58",
+        "color11": "#908983",
+        "color12": "#d69789",
+        "color13": "#acbdca",
+        "color14": "#f1c78e",
+        "color15": "#c7c7c7"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/ocean.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#202828",
+        "foreground": "#c7c9c9",
+        "cursor": "#c7c9c9"
+    },
+    "colors": {
+        "color0": "#202828",
+        "color1": "#4c8680",
+        "color2": "#757a7d",
+        "color3": "#8a9591",
+        "color4": "#afb2aa",
+        "color5": "#a4b8b1",
+        "color6": "#b3bab2",
+        "color7": "#c7c9c9",
+        "color8": "#575d5d",
+        "color9": "#4c8680",
+        "color10": "#757a7d",
+        "color11": "#8a9591",
+        "color12": "#afb2aa",
+        "color13": "#a4b8b1",
+        "color14": "#b3bab2",
+        "color15": "#c7c9c9"
+    }
+}

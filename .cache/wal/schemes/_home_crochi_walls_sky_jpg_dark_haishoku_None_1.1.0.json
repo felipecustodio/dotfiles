@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/sky.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#28242a",
+        "foreground": "#c9c8c9",
+        "cursor": "#c9c8c9"
+    },
+    "colors": {
+        "color0": "#28242a",
+        "color1": "#74638f",
+        "color2": "#7d7da3",
+        "color3": "#938faa",
+        "color4": "#9fa4b8",
+        "color5": "#d594a6",
+        "color6": "#b2b5c4",
+        "color7": "#c9c8c9",
+        "color8": "#5d5a5f",
+        "color9": "#74638f",
+        "color10": "#7d7da3",
+        "color11": "#938faa",
+        "color12": "#9fa4b8",
+        "color13": "#d594a6",
+        "color14": "#b2b5c4",
+        "color15": "#c9c8c9"
+    }
+}

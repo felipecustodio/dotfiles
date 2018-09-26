@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/crochi/walls/shiba.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1e1e1f",
+        "foreground": "#c6c6c7",
+        "cursor": "#c6c6c7"
+    },
+    "colors": {
+        "color0": "#1e1e1f",
+        "color1": "#7d0f18",
+        "color2": "#bb0322",
+        "color3": "#434e5b",
+        "color4": "#4a5e66",
+        "color5": "#6f747e",
+        "color6": "#b98f91",
+        "color7": "#c6c6c7",
+        "color8": "#565657",
+        "color9": "#7d0f18",
+        "color10": "#bb0322",
+        "color11": "#434e5b",
+        "color12": "#4a5e66",
+        "color13": "#6f747e",
+        "color14": "#b98f91",
+        "color15": "#c6c6c7"
+    }
+}
