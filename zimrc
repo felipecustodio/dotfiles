@@ -1,0 +1,66 @@
+
+# wal
+(cat /home/crochi/.cache/wal/sequences &)
+
+zmodules=(directory environment git git-info history input utility custom \
+          prompt completion syntax-highlighting history-substring-search )
+
+wd() {
+  . /usr/share/wd/wd.sh
+}
+
+LS_COLORS=$(ls_colors_generator)
+
+run_ls() {
+	ls-i --color=auto -w $(tput cols) "$@"
+}
+
+run_dir() {
+	dir-i --color=auto -w $(tput cols) "$@"
+}
+
+run_vdir() {
+	vdir-i --color=auto -w $(tput cols) "$@"
+}
+alias ls="run_ls"
+alias dir="run_dir"
+alias vdir="run_vdir"
+
+function zipper { unzip "$1" -d "${1%.*}" }
+export zipper
+
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+alias rice="~/.scripts/rice.sh"
+alias cp="rsync -avP "
+alias grep="grep -i "
+alias speed="sh ~/.scripts/net.sh &"
+alias mirrors="sudo reflector --latest 50 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
+alias cleancache="yes | yay -Scc"
+alias update="mirrors && yay -Syyuv"
+alias open="pcmanfm ."
+alias download="~/.scripts/download.sh"
+alias clip="~/.scripts/clip.sh"
+alias bar="sh ~/.config/polybar/launch.sh"
+alias lock="sh ~/.scripts/lock.sh"
+
+# dotfile management
+alias dotdrop="/home/crochi/.dots/dotdrop.sh --cfg=/home/crochi/.dots/config.yaml"
+
+# prompt
+zprompt_theme='gitster'
+
+# env
+ztermtitle='%n@%m:%~'
+
+# input
+zinput_mode='vi'
+
+# syntax
+zhighlighters=(main brackets cursor)
+
+# ssh
+zssh_ids=(id_rsa)
+
+# pacman
+#zpacman_frontend='powerpill'

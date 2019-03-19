@@ -1,0 +1,107 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: ~/.dots
+  ignoreempty: false
+  keepdot: false
+  link_by_default: false
+  longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
+dotfiles:
+  f_bat.sh:
+    dst: ~/.scripts/bat.sh
+    src: scripts/bat.sh
+  f_bookmarks:
+    dst: ~/.config/gtk-3.0/bookmarks
+    src: config/gtk-3.0/bookmarks
+  f_clip.sh:
+    dst: ~/.scripts/clip.sh
+    src: scripts/clip.sh
+  f_compton.conf:
+    dst: ~/.config/compton.conf
+    src: config/compton.conf
+  f_config:
+    dst: ~/.config/i3/config
+    src: config/i3/config
+  f_dunstrc:
+    dst: ~/.config/wal/templates/dunstrc
+    src: config/wal/templates/dunstrc
+  f_gtk.css:
+    dst: ~/.config/gtk-3.0/gtk.css
+    src: config/gtk-3.0/gtk.css
+  f_launch.sh:
+    dst: ~/.config/polybar/launch.sh
+    src: config/polybar/launch.sh
+  f_main:
+    dst: ~/.config/polybar/main
+    src: config/polybar/main
+  f_mimeapps.list:
+    dst: ~/.config/mimeapps.list
+    src: config/mimeapps.list
+  f_net.sh:
+    dst: ~/.scripts/net.sh
+    src: scripts/net.sh
+  f_pacman.conf:
+    dst: /etc/pacman.conf
+    src: etc/pacman.conf
+  f_pcmanfm.conf:
+    dst: ~/.config/pcmanfm/default/pcmanfm.conf
+    src: config/pcmanfm/default/pcmanfm.conf
+  f_redshift.conf:
+    dst: ~/.config/redshift.conf
+    src: config/redshift.conf
+  f_rice.sh:
+    dst: ~/.scripts/rice.sh
+    src: scripts/rice.sh
+  f_settings.ini:
+    dst: ~/.config/gtk-3.0/settings.ini
+    src: config/gtk-3.0/settings.ini
+  f_shot.sh:
+    dst: ~/.scripts/shot.sh
+    src: scripts/shot.sh
+  f_vimrc:
+    dst: ~/.vimrc
+    src: vimrc
+  f_warprc:
+    dst: ~/.warprc
+    src: warprc
+  f_xinitrc:
+    dst: ~/.xinitrc
+    src: xinitrc
+  f_xresources:
+    dst: ~/.Xresources
+    src: Xresources
+  f_xscreensaver:
+    dst: ~/.xscreensaver
+    src: xscreensaver
+  f_zimrc:
+    dst: ~/.zimrc
+    src: zimrc
+profiles:
+  illium:
+    dotfiles:
+    - f_zimrc
+    - f_xinitrc
+    - f_config
+    - f_launch.sh
+    - f_main
+    - f_clip.sh
+    - f_net.sh
+    - f_rice.sh
+    - f_shot.sh
+    - f_bat.sh
+    - f_dunstrc
+    - f_redshift.conf
+    - f_pcmanfm.conf
+    - f_mimeapps.list
+    - f_compton.conf
+    - f_settings.ini
+    - f_gtk.css
+    - f_bookmarks
+    - f_xresources
+    - f_xscreensaver
+    - f_vimrc
+    - f_warprc
+    - f_pacman.conf

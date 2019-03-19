@@ -1,0 +1,21 @@
+[Added Associations]
+inode/directory=exo-file-manager.desktop;
+x-scheme-handler/trash=exo-file-manager.desktop
+application/x-shellscript=visual-studio-code.desktop;
+image/png=gpicview.desktop;
+video/webm=mpv.desktop;
+audio/x-wav=vlc.desktop;lxmusic.desktop;
+image/jpeg=viewnior.desktop;
+video/mp4=vlc.desktop;mpv.desktop;
+application/pdf=org.kde.okular.desktop;
+
+[Default Applications]
+x-scheme-handler/mailspring=mailspring.desktop
+application/x-shellscript=visual-studio-code.desktop
+image/png=gpicview.desktop
+video/webm=mpv.desktop
+inode/directory=exo-file-manager.desktop
+audio/x-wav=vlc.desktop
+image/jpeg=viewnior.desktop
+video/mp4=mpv.desktop
+application/pdf=org.kde.okular.desktop
