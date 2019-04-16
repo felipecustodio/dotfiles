@@ -57,7 +57,7 @@ font-0 = "icomoon\-feather:size=10;2"
 font-2 = Font Awesome:pixelsize=10;1
 
 modules-left = i3 xkeyboard
-modules-center = date 
+modules-center = popup-calendar 
 modules-right = spotify volume wlan battery
 
 ; Available positions:
@@ -309,6 +309,15 @@ format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
 label = %date% %time%
+
+/home/crochi/.scripts/polybar-scripts
+
+[module/popup-calendar]
+type = custom/script
+format-prefix =   
+exec = /home/crochi/.scripts/polybar-scripts/popup-calendar.sh
+interval = 5
+click-left = /home/crochi/.scripts/polybar-scripts/popup-calendar.sh --popup
 
 [module/volume]
 type = internal/pulseaudio

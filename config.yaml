@@ -25,6 +25,9 @@ dotfiles:
   f_config:
     dst: ~/.config/i3/config
     src: config/i3/config
+  f_config.conf:
+    dst: ~/.config/neofetch/config.conf
+    src: config/neofetch/config.conf
   f_dunstrc:
     dst: ~/.config/wal/templates/dunstrc
     src: config/wal/templates/dunstrc
@@ -61,6 +64,9 @@ dotfiles:
   f_shot.sh:
     dst: ~/.scripts/shot.sh
     src: scripts/shot.sh
+  f_stalonetrayrc:
+    dst: ~/.stalonetrayrc
+    src: stalonetrayrc
   f_vimrc:
     dst: ~/.vimrc
     src: vimrc
@@ -76,6 +82,9 @@ dotfiles:
   f_xscreensaver:
     dst: ~/.xscreensaver
     src: xscreensaver
+  f_zathurarc:
+    dst: ~/.config/zathura/zathurarc
+    src: config/zathura/zathurarc
   f_zimrc:
     dst: ~/.zimrc
     src: zimrc
@@ -105,3 +114,6 @@ profiles:
     - f_vimrc
     - f_warprc
     - f_pacman.conf
+    - f_stalonetrayrc
+    - f_config.conf
+    - f_zathurarc

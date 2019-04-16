@@ -1,0 +1,48 @@
+set recolor "true"
+
+set completion-bg "#210703"
+set completion-fg "#c7c1c0"
+set completion-group-bg "#210703"
+set completion-group-fg "#aa341e"
+set completion-highlight-bg "#c7c1c0"
+set completion-highlight-fg "#210703"
+
+set recolor-lightcolor "#210703"
+set recolor-darkcolor "#c7c1c0"
+set default-bg "#210703"
+
+set inputbar-bg "#210703"
+set inputbar-fg "#c7c1c0"
+set notification-bg "#210703"
+set notification-fg "#c7c1c0"
+set notification-error-bg "#aa2513"
+set notification-error-fg "#c7c1c0"
+set notification-warning-bg "#aa2513"
+set notification-warning-fg "#c7c1c0"
+set statusbar-bg "#210703"
+set statusbar-fg "#c7c1c0"
+set index-bg "#210703"
+set index-fg "#c7c1c0"
+set index-active-bg "#c7c1c0"
+set index-active-fg "#210703"
+set render-loading-bg "#210703"
+set render-loading-fg "#c7c1c0"
+
+set font "cmr10 15"
+
+set smooth-scroll true
+set window-title-home-tilde true
+set statusbar-basename true
+set selection-clipboard clipboard
+set adjust-open "best-fit"
+set pages-per-row 1
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+set render-loading "false"
+set scroll-step 50
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+

@@ -35,8 +35,6 @@ while :; do
 	
 	if [ "$n" -lt "20" ] && [ "$y" = "Discharging" ]; then
 		notify-send "Critical Battery Level: $n%"
-    elif [ "$n" -gt "95" ] && [ "$y" = "Charging" ]; then
-        notify-send  "Battery is fully charged"
-   	fi	
+	fi	
 	sleep 5
 done

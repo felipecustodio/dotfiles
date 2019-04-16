@@ -8,6 +8,8 @@ source "${HOME}/.cache/wal/colors.sh"
 sudo -E oomoxify-cli -f "FantasqueSansMono Nerd Font" -s /opt/spotify/Apps ~/.cache/wal/colors-oomox
 sudo -E ~/.telegram-palette-gen/telegram-palette-gen --wal
 sudo -E wal_steam -w
+sh ~/.scripts/wal-discord/wal-discord -x
+beautifuldiscord --css $HOME/.cache/wal-discord/style.css
 
 # Symlink generated templates
 mkdir -p  "${HOME}/.config/dunst"

@@ -80,9 +80,6 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-# assign apps to workspaces
-assign [class="Spotify"] 5
-
 # switch to workspace
 bindsym $mod+1 workspace number 1
 bindsym $mod+2 workspace number 2
@@ -141,7 +138,6 @@ bindsym $mod+r mode "resize"
 
 # Autostart
 exec --no-startup-id compton --config ~/.config/compton.conf -b --dbus &
-exec --no-startup-id xscreensaver &
 exec --no-startup-id wal -R &
 exec --no-startup-id sh ~/.scripts/blurme/blurme &
 exec --no-startup-id redshift &
@@ -181,6 +177,9 @@ bindsym $mod+t exec telegram-desktop
 #  test internet speed
 bindsym $mod+p exec sh ~/.scripts/net.sh
 
+# show memory usage
+bindsym $mod+m exec sh ~/.scripts/process.sh
+
 # locker
 bindsym $mod+Shift+x exec sh ~/.scripts/lock.sh
 
@@ -216,4 +215,4 @@ for_window [class="feh"] floating enable
 for_window [class="Feh"] floating enable
 for_window [class="java"] floating enable
 for_window [class="Java"] floating enable
-
+for_window [class="Yad" title="yad-calendar"] floating enable

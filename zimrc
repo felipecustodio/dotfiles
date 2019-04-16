@@ -29,6 +29,9 @@ alias vdir="run_vdir"
 function zipper { unzip "$1" -d "${1%.*}" }
 export zipper
 
+function dot { dotdrop import "$(readlink -f "$1")" }
+export dot
+
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 alias rice="~/.scripts/rice.sh"
@@ -37,12 +40,15 @@ alias grep="grep -i "
 alias speed="sh ~/.scripts/net.sh &"
 alias mirrors="sudo reflector --latest 50 --protocol https --sort rate --save /etc/pacman.d/mirrorlist"
 alias cleancache="yes | yay -Scc"
-alias update="mirrors && yay -Syyuv"
+alias update="mirrors && yay -Syu"
 alias open="pcmanfm ."
 alias download="~/.scripts/download.sh"
 alias clip="~/.scripts/clip.sh"
 alias bar="sh ~/.config/polybar/launch.sh"
 alias lock="sh ~/.scripts/lock.sh"
+alias py="python"
+alias view="viewnior"
+alias man="BROWSER=firefox man --html "
 
 # dotfile management
 alias dotdrop="/home/crochi/.dots/dotdrop.sh --cfg=/home/crochi/.dots/config.yaml"
@@ -61,6 +67,9 @@ zhighlighters=(main brackets cursor)
 
 # ssh
 zssh_ids=(id_rsa)
+
+# colors
+export TERM=xterm-256color
 
 # pacman
 #zpacman_frontend='powerpill'

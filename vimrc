@@ -17,6 +17,9 @@ vmap <S-Down> <Down>
 vmap <S-Left> <Left>
 vmap <S-Right> <Right>
 
+" NerdTREE
+map <C-o> :NERDTreeToggle<CR>
+
 set mouse=a
 
 " Plugins
@@ -33,10 +36,44 @@ Plug 'bling/vim-bufferline'			" Buffers bar
 Plug 'NovaDev94/lightline-onedark'	" Theme for Lightline
 Plug 'dylanaraps/wal.vim'			" Wal colorscheme
 Plug 'lifepillar/vim-solarized8'	" Solarized colorscheme
+Plug 'terryma/vim-multiple-cursors' " Multiple cursors
+Plug 'tpope/vim-surround'			" Surround
+Plug 'w0rp/ale'						" Linting engine
 
 call plug#end()
+
+" Lightline
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \ 'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+      \ },
+      \ 'component_function': {
+      \   'gitbranch': 'fugitive#head'
+      \ },
+      \ }
+
+set laststatus=2
+
+if !has('gui_running')
+  set t_Co=256
+endif
+
+set noshowmode
+
+" ALE
+let g:ale_completion_enabled = 1
+
+" Check Python files with flake8 and pylint.
+let b:ale_linters = ['flake8', 'pylint']
+" Fix Python files with autopep8 and yapf.
+let b:ale_fixers = ['autopep8', 'yapf']
+" Disable warnings about trailing whitespace for Python files.
+let b:ale_warn_about_trailing_whitespace = 0
 
 " Color Scheme
 " set termguicolors
 " set background=dark
 colorscheme wal
+" colorscheme solarized8
