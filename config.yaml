@@ -5,7 +5,8 @@ config:
   dotpath: ~/.dots
   ignoreempty: false
   keepdot: false
-  link_by_default: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
   longkey: false
   showdiff: false
   workdir: ~/.config/dotdrop
@@ -67,6 +68,9 @@ dotfiles:
   f_stalonetrayrc:
     dst: ~/.stalonetrayrc
     src: stalonetrayrc
+  f_termite_config:
+    dst: ~/.config/termite/config
+    src: config/termite/config
   f_vimrc:
     dst: ~/.vimrc
     src: vimrc
@@ -117,3 +121,4 @@ profiles:
     - f_stalonetrayrc
     - f_config.conf
     - f_zathurarc
+    - f_termite_config

@@ -1,0 +1,36 @@
+
+#
+#   $$\                                       $$\   $$\
+#   $$ |                                      \__|  $$ |
+# $$$$$$\    $$$$$$\   $$$$$$\  $$$$$$\$$$$\  $$\ $$$$$$\    $$$$$$\
+# \_$$  _|  $$  __$$\ $$  __$$\ $$  _$$  _$$\ $$ |\_$$  _|  $$  __$$\
+#   $$ |    $$$$$$$$ |$$ |  \__|$$ / $$ / $$ |$$ |  $$ |    $$$$$$$$ |
+#   $$ |$$\ $$   ____|$$ |      $$ | $$ | $$ |$$ |  $$ |$$\ $$   ____|
+#   \$$$$  |\$$$$$$$\ $$ |      $$ | $$ | $$ |$$ |  \$$$$  |\$$$$$$$\
+#    \____/  \_______|\__|      \__| \__| \__|\__|   \____/  \_______|
+
+
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+scrollback_lines = 10000
+search_wrap = true
+
+# Font
+font = SF Mono Medium 14
+# Icons
+# font = icomoon\-feather 10
+
+# "system", "on" or "off"
+cursor_blink = off
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# vim: ft=dosini cms=#%s
