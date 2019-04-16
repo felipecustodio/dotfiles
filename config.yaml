@@ -11,6 +11,9 @@ config:
   showdiff: false
   workdir: ~/.config/dotdrop
 dotfiles:
+  d_blurme:
+    dst: ~/.scripts/blurme
+    src: scripts/blurme
   f_bat.sh:
     dst: ~/.scripts/bat.sh
     src: scripts/bat.sh
@@ -122,3 +125,4 @@ profiles:
     - f_config.conf
     - f_zathurarc
     - f_termite_config
+    - d_blurme
