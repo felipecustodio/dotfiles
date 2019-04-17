@@ -14,6 +14,9 @@ dotfiles:
   d_blurme:
     dst: ~/.scripts/blurme
     src: scripts/blurme
+  d_polybar-scripts:
+    dst: ~/.scripts/polybar-scripts
+    src: scripts/polybar-scripts
   f_bat.sh:
     dst: ~/.scripts/bat.sh
     src: scripts/bat.sh
@@ -41,6 +44,9 @@ dotfiles:
   f_launch.sh:
     dst: ~/.config/polybar/launch.sh
     src: config/polybar/launch.sh
+  f_lock.sh:
+    dst: ~/.scripts/lock.sh
+    src: scripts/lock.sh
   f_main:
     dst: ~/.config/polybar/main
     src: config/polybar/main
@@ -62,6 +68,9 @@ dotfiles:
   f_rice.sh:
     dst: ~/.scripts/rice.sh
     src: scripts/rice.sh
+  f_rofi_config:
+    dst: ~/.config/rofi/config
+    src: config/rofi/config
   f_settings.ini:
     dst: ~/.config/gtk-3.0/settings.ini
     src: config/gtk-3.0/settings.ini
@@ -126,3 +135,6 @@ profiles:
     - f_zathurarc
     - f_termite_config
     - d_blurme
+    - f_lock.sh
+    - d_polybar-scripts
+    - f_rofi_config

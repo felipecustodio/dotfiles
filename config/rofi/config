@@ -1,0 +1,7 @@
+# Dark theme.
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+# Light theme.
+rofi.display-window: fullscreen
+# rofi.theme: ~/.cache/wal/colors-rofi-light.rasi
+# Icons
+show-icons: true
