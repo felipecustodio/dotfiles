@@ -1,9 +1,3 @@
-
-ドット | 
-------------|
-
-**Distro:** rebornOS (arch based)
-
 **WM:** i3-gaps
 
 **Terminal:** termite
